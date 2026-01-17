@@ -435,6 +435,17 @@
       ],
       "path": "easy/two-sum/solution.py",
       "date_solved": "2026-01-17"
+    },
+    {
+      "slug": "valid-palindrome",
+      "name": "Valid Palindrome",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/valid-palindrome/solution.py",
+      "date_solved": "2026-01-17"
     }
   ]
 }
