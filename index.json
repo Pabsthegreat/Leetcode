@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "median-of-two-sorted-arrays",
+      "name": "Median of Two Sorted Arrays",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "path": "hard/median-of-two-sorted-arrays/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "add-two-numbers",
       "name": "Add Two Numbers",
       "difficulty": "Medium",
