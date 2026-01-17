@@ -867,6 +867,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "uncommon-words-from-two-sentences",
+      "name": "Uncommon Words from Two Sentences",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "path": "easy/uncommon-words-from-two-sentences/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "valid-anagram",
       "name": "Valid Anagram",
       "difficulty": "Easy",
