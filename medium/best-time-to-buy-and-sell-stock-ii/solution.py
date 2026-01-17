@@ -1,7 +1,7 @@
 """
 [Description]
 Best Time to Buy and Sell Stock II
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -45,20 +45,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def maxProfit(self, prices):
+    def twoSum(self, nums, target):
         """
-        :type prices: List[int]
-        :rtype: int
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
         """
-        profit = 0
-        m = prices[0]
-        if len(prices) == 1:
-            return profit
-        for i in range(1,len(prices)):
-            if prices[i] < prices[i-1]:
-                profit += prices[i-1] - m
-                m = prices[i]
-            else:
-                continue
-        profit += prices[i] - m
-        return profit
+        ind = {}
+        
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            
+            if complement in ind:
+                return [ind[complement], i] 
+            
+            ind[nums[i]] = i
+        
+        return None
