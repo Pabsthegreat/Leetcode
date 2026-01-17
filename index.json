@@ -13,18 +13,6 @@
       "date_solved": "2026-01-17"
     },
     {
-      "slug": "add-two-numbers",
-      "name": "Add Two Numbers",
-      "difficulty": "Medium",
-      "topics": [
-        "Linked List",
-        "Math",
-        "Recursion"
-      ],
-      "path": "medium/add-two-numbers/solution.txt",
-      "date_solved": "2026-01-17"
-    },
-    {
       "slug": "best-time-to-buy-and-sell-stock-ii",
       "name": "Best Time to Buy and Sell Stock II",
       "difficulty": "Medium",
@@ -82,17 +70,6 @@
         "Sliding Window"
       ],
       "path": "easy/contains-duplicate-ii/solution.py",
-      "date_solved": "2026-01-17"
-    },
-    {
-      "slug": "two-sum",
-      "name": "Two Sum",
-      "difficulty": "Easy",
-      "topics": [
-        "Array",
-        "Hash Table"
-      ],
-      "path": "easy/two-sum/solution.txt",
       "date_solved": "2026-01-17"
     }
   ]
