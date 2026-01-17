@@ -806,6 +806,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "final-array-state-after-k-multiplication-operations-i",
+      "name": "Final Array State After K Multiplication Operations I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Math",
+        "Heap (Priority Queue)",
+        "Simulation"
+      ],
+      "path": "easy/final-array-state-after-k-multiplication-operations-i/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
