@@ -721,6 +721,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "minimum-time-visiting-all-points",
+      "name": "Minimum Time Visiting All Points",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Math",
+        "Geometry"
+      ],
+      "path": "easy/minimum-time-visiting-all-points/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "number-of-1-bits",
       "name": "Number of 1 Bits",
       "difficulty": "Easy",
