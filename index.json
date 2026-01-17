@@ -1389,6 +1389,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "valid-parentheses",
+      "name": "Valid Parentheses",
+      "difficulty": "Easy",
+      "topics": [
+        "String",
+        "Stack"
+      ],
+      "path": "easy/valid-parentheses/solution.txt",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "word-pattern",
       "name": "Word Pattern",
       "difficulty": "Easy",
