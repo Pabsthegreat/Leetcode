@@ -555,6 +555,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "max-consecutive-ones",
+      "name": "Max Consecutive Ones",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/max-consecutive-ones/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "maximum-depth-of-binary-tree",
       "name": "Maximum Depth of Binary Tree",
       "difficulty": "Easy",
