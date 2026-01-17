@@ -511,6 +511,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "defuse-the-bomb",
+      "name": "Defuse the Bomb",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sliding Window"
+      ],
+      "path": "easy/defuse-the-bomb/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "delete-characters-to-make-fancy-string",
       "name": "Delete Characters to Make Fancy String",
       "difficulty": "Easy",
