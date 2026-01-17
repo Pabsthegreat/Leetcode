@@ -769,6 +769,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "largest-3-same-digit-number-in-string",
+      "name": "Largest 3-Same-Digit Number in String",
+      "difficulty": "Easy",
+      "topics": [
+        "String"
+      ],
+      "path": "easy/largest-3-same-digit-number-in-string/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "length-of-last-word",
       "name": "Length of Last Word",
       "difficulty": "Easy",
