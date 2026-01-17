@@ -244,6 +244,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "rotate-array",
+      "name": "Rotate Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Two Pointers"
+      ],
+      "path": "medium/rotate-array/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "rotate-image",
       "name": "Rotate Image",
       "difficulty": "Medium",
