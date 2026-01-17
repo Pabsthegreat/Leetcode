@@ -485,6 +485,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "delete-characters-to-make-fancy-string",
+      "name": "Delete Characters to Make Fancy String",
+      "difficulty": "Easy",
+      "topics": [
+        "String"
+      ],
+      "path": "easy/delete-characters-to-make-fancy-string/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "element-appearing-more-than-25-in-sorted-array",
       "name": "Element Appearing More Than 25% In Sorted Array",
       "difficulty": "Easy",
