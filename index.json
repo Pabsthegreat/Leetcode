@@ -531,6 +531,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "string-compression-iii",
+      "name": "String Compression III",
+      "difficulty": "Medium",
+      "topics": [
+        "String"
+      ],
+      "path": "medium/string-compression-iii/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "string-to-integer-atoi",
       "name": "String to Integer (atoi)",
       "difficulty": "Medium",
