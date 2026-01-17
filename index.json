@@ -359,6 +359,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "happy-number",
+      "name": "Happy Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Math",
+        "Two Pointers"
+      ],
+      "path": "easy/happy-number/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "intersection-of-two-linked-lists",
       "name": "Intersection of Two Linked Lists",
       "difficulty": "Easy",
