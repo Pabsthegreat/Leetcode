@@ -343,6 +343,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+      "name": "Maximum Sum of Distinct Subarrays With Length K",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sliding Window"
+      ],
+      "path": "medium/maximum-sum-of-distinct-subarrays-with-length-k/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "maximum-xor-for-each-query",
       "name": "Maximum XOR for Each Query",
       "difficulty": "Medium",
