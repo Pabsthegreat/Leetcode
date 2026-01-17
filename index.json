@@ -393,6 +393,20 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "majority-element",
+      "name": "Majority Element",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Counting"
+      ],
+      "path": "easy/majority-element/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "maximum-depth-of-binary-tree",
       "name": "Maximum Depth of Binary Tree",
       "difficulty": "Easy",
