@@ -207,6 +207,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "remove-element",
+      "name": "Remove Element",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Two Pointers"
+      ],
+      "path": "easy/remove-element/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "roman-to-integer",
       "name": "Roman to Integer",
       "difficulty": "Easy",
