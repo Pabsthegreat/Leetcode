@@ -828,6 +828,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "merge-strings-alternately",
+      "name": "Merge Strings Alternately",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/merge-strings-alternately/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "merge-two-sorted-lists",
       "name": "Merge Two Sorted Lists",
       "difficulty": "Easy",
