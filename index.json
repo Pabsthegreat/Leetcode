@@ -82,6 +82,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "string-to-integer-atoi",
+      "name": "String to Integer (atoi)",
+      "difficulty": "Medium",
+      "topics": [
+        "String"
+      ],
+      "path": "medium/string-to-integer-atoi/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "validate-binary-search-tree",
       "name": "Validate Binary Search Tree",
       "difficulty": "Medium",
