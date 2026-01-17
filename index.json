@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "candy",
+      "name": "Candy",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "hard/candy/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "median-of-two-sorted-arrays",
       "name": "Median of Two Sorted Arrays",
       "difficulty": "Hard",
