@@ -321,6 +321,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "linked-list-cycle",
+      "name": "Linked List Cycle",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "easy/linked-list-cycle/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "longest-common-prefix",
       "name": "Longest Common Prefix",
       "difficulty": "Easy",
