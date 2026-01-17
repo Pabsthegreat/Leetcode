@@ -163,6 +163,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "name": "Find the Index of the First Occurrence in a String",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "String Matching"
+      ],
+      "path": "easy/find-the-index-of-the-first-occurrence-in-a-string/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "longest-common-prefix",
       "name": "Longest Common Prefix",
       "difficulty": "Easy",
