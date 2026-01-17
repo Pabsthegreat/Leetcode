@@ -383,6 +383,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "isomorphic-strings",
+      "name": "Isomorphic Strings",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String"
+      ],
+      "path": "easy/isomorphic-strings/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "length-of-last-word",
       "name": "Length of Last Word",
       "difficulty": "Easy",
