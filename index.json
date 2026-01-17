@@ -606,6 +606,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "circular-sentence",
+      "name": "Circular Sentence",
+      "difficulty": "Easy",
+      "topics": [
+        "String"
+      ],
+      "path": "easy/circular-sentence/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "climbing-stairs",
       "name": "Climbing Stairs",
       "difficulty": "Easy",
