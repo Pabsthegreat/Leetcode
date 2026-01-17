@@ -591,6 +591,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "long-pressed-name",
+      "name": "Long Pressed Name",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/long-pressed-name/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "longest-common-prefix",
       "name": "Longest Common Prefix",
       "difficulty": "Easy",
