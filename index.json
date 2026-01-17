@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "slug": "two-sum",
+      "name": "Two Sum",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/two-sum/solution.txt",
+      "date_solved": "2026-01-17"
+    }
+  ]
+}
