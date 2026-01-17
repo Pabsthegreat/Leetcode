@@ -829,6 +829,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "maximum-product-difference-between-two-pairs",
+      "name": "Maximum Product Difference Between Two Pairs",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting"
+      ],
+      "path": "easy/maximum-product-difference-between-two-pairs/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "maximum-product-of-two-elements-in-an-array",
       "name": "Maximum Product of Two Elements in an Array",
       "difficulty": "Easy",
