@@ -742,6 +742,20 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "longest-nice-substring",
+      "name": "Longest Nice Substring",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Divide and Conquer",
+        "Bit Manipulation",
+        "Sliding Window"
+      ],
+      "path": "easy/longest-nice-substring/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "majority-element",
       "name": "Majority Element",
       "difficulty": "Easy",
