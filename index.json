@@ -139,6 +139,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "longest-common-prefix",
+      "name": "Longest Common Prefix",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String",
+        "Trie"
+      ],
+      "path": "easy/longest-common-prefix/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "palindrome-number",
       "name": "Palindrome Number",
       "difficulty": "Easy",
