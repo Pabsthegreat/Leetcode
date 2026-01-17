@@ -145,6 +145,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "find-if-array-can-be-sorted",
+      "name": "Find if Array Can Be Sorted",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Bit Manipulation",
+        "Sorting"
+      ],
+      "path": "medium/find-if-array-can-be-sorted/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "find-unique-binary-string",
       "name": "Find Unique Binary String",
       "difficulty": "Medium",
