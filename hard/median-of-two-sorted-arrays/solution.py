@@ -1,7 +1,7 @@
 """
 [Description]
 Median of Two Sorted Arrays
-https://leetcode.com/problems/reverse-integer/
+https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
@@ -38,19 +38,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def reverse(self, x):
-        sign = -1 if x < 0 else 1
-        x = abs(x)
-        rev = 0
-        INT_MAX = 2**31 - 1  # 2147483647
-
-        while x:
-            pop = x % 10
-            x //= 10
-            # If rev will exceed INT_MAX after *10 + pop, return 0
-            if rev > (INT_MAX - pop) // 10:
-                return 0
-
-            rev = rev * 10 + pop
-
-        return sign * rev
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        ind = {}
+        
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            
+            if complement in ind:
+                return [ind[complement], i] 
+            
+            ind[nums[i]] = i
+        
+        return None
