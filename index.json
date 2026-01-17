@@ -487,6 +487,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "calculate-money-in-leetcode-bank",
+      "name": "Calculate Money in Leetcode Bank",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/calculate-money-in-leetcode-bank/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "check-if-two-string-arrays-are-equivalent",
       "name": "Check If Two String Arrays are Equivalent",
       "difficulty": "Easy",
