@@ -601,6 +601,20 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "minimum-absolute-difference-in-bst",
+      "name": "Minimum Absolute Difference in BST",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "path": "easy/minimum-absolute-difference-in-bst/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "number-of-1-bits",
       "name": "Number of 1 Bits",
       "difficulty": "Easy",
