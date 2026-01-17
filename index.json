@@ -152,6 +152,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "linked-list-cycle-ii",
+      "name": "Linked List Cycle II",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/linked-list-cycle-ii/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "longest-substring-without-repeating-characters",
       "name": "Longest Substring Without Repeating Characters",
       "difficulty": "Medium",
