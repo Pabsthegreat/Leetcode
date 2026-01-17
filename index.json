@@ -139,6 +139,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "palindrome-number",
+      "name": "Palindrome Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/palindrome-number/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "two-sum",
       "name": "Two Sum",
       "difficulty": "Easy",
