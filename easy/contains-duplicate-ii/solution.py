@@ -1,7 +1,7 @@
 """
 [Description]
 Contains Duplicate II
-https://leetcode.com/problems/contains-duplicate-ii/description/
+https://leetcode.com/problems/contains-duplicate-ii/
 
 Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
 
@@ -36,19 +36,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def containsNearbyDuplicate(self, nums, k):
+    def twoSum(self, nums, target):
         """
         :type nums: List[int]
-        :type k: int
-        :rtype: bool
+        :type target: int
+        :rtype: List[int]
         """
-        d = {}
+        ind = {}
+        
         for i in range(len(nums)):
-            if nums[i] in d:
-                if abs(d[nums[i]]-i) <= k:
-                    return True
-                else:
-                    d[nums[i]] = i
-            else:
-                d[nums[i]] = i
-        return False
+            complement = target - nums[i]
+            
+            if complement in ind:
+                return [ind[complement], i] 
+            
+            ind[nums[i]] = i
+        
+        return None
