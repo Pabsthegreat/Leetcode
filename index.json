@@ -497,6 +497,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "find-words-that-can-be-formed-by-characters",
+      "name": "Find Words That Can Be Formed by Characters",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "path": "easy/find-words-that-can-be-formed-by-characters/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "fizz-buzz",
       "name": "Fizz Buzz",
       "difficulty": "Easy",
