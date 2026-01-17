@@ -169,6 +169,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "find-the-power-of-k-size-subarrays-i",
+      "name": "Find the Power of K-Size Subarrays I",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Sliding Window"
+      ],
+      "path": "medium/find-the-power-of-k-size-subarrays-i/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "find-unique-binary-string",
       "name": "Find Unique Binary String",
       "difficulty": "Medium",
