@@ -549,6 +549,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "power-of-two",
+      "name": "Power of Two",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Bit Manipulation",
+        "Recursion"
+      ],
+      "path": "easy/power-of-two/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "remove-duplicates-from-sorted-array",
       "name": "Remove Duplicates from Sorted Array",
       "difficulty": "Easy",
