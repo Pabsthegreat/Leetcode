@@ -522,6 +522,20 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "count-the-number-of-consistent-strings",
+      "name": "Count the Number of Consistent Strings",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Bit Manipulation",
+        "Counting"
+      ],
+      "path": "easy/count-the-number-of-consistent-strings/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "defuse-the-bomb",
       "name": "Defuse the Bomb",
       "difficulty": "Easy",
