@@ -212,6 +212,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "minimum-size-subarray-sum",
+      "name": "Minimum Size Subarray Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "path": "medium/minimum-size-subarray-sum/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "remove-duplicates-from-sorted-array-ii",
       "name": "Remove Duplicates from Sorted Array II",
       "difficulty": "Medium",
