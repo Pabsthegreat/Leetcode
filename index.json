@@ -485,6 +485,16 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "element-appearing-more-than-25-in-sorted-array",
+      "name": "Element Appearing More Than 25% In Sorted Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/element-appearing-more-than-25-in-sorted-array/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
