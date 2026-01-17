@@ -310,6 +310,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "plus-one",
+      "name": "Plus One",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Math"
+      ],
+      "path": "easy/plus-one/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "remove-duplicates-from-sorted-array",
       "name": "Remove Duplicates from Sorted Array",
       "difficulty": "Easy",
