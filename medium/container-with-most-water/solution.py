@@ -1,7 +1,7 @@
 """
 [Description]
 Container With Most Water
-https://leetcode.com/problems/container-with-most-water/description/
+https://leetcode.com/problems/container-with-most-water/
 
 You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 
@@ -38,24 +38,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def maxArea(self, height):
+    def twoSum(self, nums, target):
         """
-        :type height: List[int]
-        :rtype: int
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
         """
-        l = 0
-        r = len(height) - 1
-        m = 0
-
-        while l < r:
-            left = height[l]
-            right = height[r]
-            water = (r - l) * min(left, right)
-            m = max(m, water)
-
-            if left < right:
-                l += 1
-            else:
-                r -= 1
-
-        return m
+        ind = {}
+        
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            
+            if complement in ind:
+                return [ind[complement], i] 
+            
+            ind[nums[i]] = i
+        
+        return None
