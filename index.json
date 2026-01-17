@@ -437,6 +437,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "single-number",
+      "name": "Single Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "path": "easy/single-number/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "sqrtx",
       "name": "Sqrt(x)",
       "difficulty": "Easy",
