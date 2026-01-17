@@ -375,6 +375,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "assign-cookies",
+      "name": "Assign Cookies",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "easy/assign-cookies/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "best-time-to-buy-and-sell-stock",
       "name": "Best Time to Buy and Sell Stock",
       "difficulty": "Easy",
