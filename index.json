@@ -689,6 +689,14 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "create-hello-world-function",
+      "name": "Create Hello World Function",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/create-hello-world-function/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "defuse-the-bomb",
       "name": "Defuse the Bomb",
       "difficulty": "Easy",
