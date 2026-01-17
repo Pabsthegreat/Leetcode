@@ -487,6 +487,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "check-if-two-string-arrays-are-equivalent",
+      "name": "Check If Two String Arrays are Equivalent",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String"
+      ],
+      "path": "easy/check-if-two-string-arrays-are-equivalent/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "climbing-stairs",
       "name": "Climbing Stairs",
       "difficulty": "Easy",
