@@ -684,6 +684,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "valid-anagram",
+      "name": "Valid Anagram",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "path": "easy/valid-anagram/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "valid-palindrome",
       "name": "Valid Palindrome",
       "difficulty": "Easy",
