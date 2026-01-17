@@ -498,6 +498,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "reverse-bits",
+      "name": "Reverse Bits",
+      "difficulty": "Easy",
+      "topics": [
+        "Divide and Conquer",
+        "Bit Manipulation"
+      ],
+      "path": "easy/reverse-bits/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "roman-to-integer",
       "name": "Roman to Integer",
       "difficulty": "Easy",
