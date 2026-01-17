@@ -378,6 +378,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "same-tree",
+      "name": "Same Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/same-tree/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "sqrtx",
       "name": "Sqrt(x)",
       "difficulty": "Easy",
