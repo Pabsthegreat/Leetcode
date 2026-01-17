@@ -73,6 +73,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "arithmetic-subarrays",
+      "name": "Arithmetic Subarrays",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "path": "medium/arithmetic-subarrays/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "best-time-to-buy-and-sell-stock-ii",
       "name": "Best Time to Buy and Sell Stock II",
       "difficulty": "Medium",
