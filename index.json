@@ -844,6 +844,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "transpose-matrix",
+      "name": "Transpose Matrix",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "easy/transpose-matrix/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "two-sum",
       "name": "Two Sum",
       "difficulty": "Easy",
