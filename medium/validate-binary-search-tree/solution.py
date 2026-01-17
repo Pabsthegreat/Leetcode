@@ -1,7 +1,7 @@
 """
 [Description]
 Validate Binary Search Tree
-https://leetcode.com/problems/validate-binary-search-tree/description/
+https://leetcode.com/problems/validate-binary-search-tree/
 
 Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -37,13 +37,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def isValidBST(self, root):
-        def validate(node, min_val, max_val):
-            if not node:
-                return True
-            if node.val <= min_val or node.val >= max_val:
-                return False
-            return (validate(node.left, min_val, node.val) and 
-                    validate(node.right, node.val, max_val))
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        ind = {}
         
-        return validate(root, float('-inf'), float('inf'))
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            
+            if complement in ind:
+                return [ind[complement], i] 
+            
+            ind[nums[i]] = i
+        
+        return None
