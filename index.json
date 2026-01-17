@@ -165,6 +165,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "kth-smallest-element-in-a-bst",
+      "name": "Kth Smallest Element in a BST",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "path": "medium/kth-smallest-element-in-a-bst/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "linked-list-cycle-ii",
       "name": "Linked List Cycle II",
       "difficulty": "Medium",
