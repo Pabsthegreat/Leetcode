@@ -615,6 +615,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "name": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix"
+      ],
+      "path": "easy/determine-whether-matrix-can-be-obtained-by-rotation/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "element-appearing-more-than-25-in-sorted-array",
       "name": "Element Appearing More Than 25% In Sorted Array",
       "difficulty": "Easy",
