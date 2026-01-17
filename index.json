@@ -290,6 +290,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "maximum-matching-of-players-with-trainers",
+      "name": "Maximum Matching of Players With Trainers",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "medium/maximum-matching-of-players-with-trainers/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "maximum-number-of-coins-you-can-get",
       "name": "Maximum Number of Coins You Can Get",
       "difficulty": "Medium",
