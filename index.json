@@ -233,6 +233,17 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "reverse-words-in-a-string",
+      "name": "Reverse Words in a String",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "medium/reverse-words-in-a-string/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "rotate-image",
       "name": "Rotate Image",
       "difficulty": "Medium",
