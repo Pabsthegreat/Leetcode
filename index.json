@@ -891,6 +891,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "string-matching-in-an-array",
+      "name": "String Matching in an Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String",
+        "String Matching"
+      ],
+      "path": "easy/string-matching-in-an-array/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "sum-of-left-leaves",
       "name": "Sum of Left Leaves",
       "difficulty": "Easy",
