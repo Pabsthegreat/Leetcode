@@ -13,6 +13,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "3sum",
+      "name": "3Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "path": "medium/3sum/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "add-two-numbers",
       "name": "Add Two Numbers",
       "difficulty": "Medium",
