@@ -241,6 +241,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+      "name": "Largest Combination With Bitwise AND Greater Than Zero",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation",
+        "Counting"
+      ],
+      "path": "medium/largest-combination-with-bitwise-and-greater-than-zero/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "linked-list-components",
       "name": "Linked List Components",
       "difficulty": "Medium",
