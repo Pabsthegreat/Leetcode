@@ -300,6 +300,19 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "maximum-depth-of-binary-tree",
+      "name": "Maximum Depth of Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/maximum-depth-of-binary-tree/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "merge-sorted-array",
       "name": "Merge Sorted Array",
       "difficulty": "Easy",
