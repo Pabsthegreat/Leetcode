@@ -108,6 +108,18 @@
       "date_solved": "2026-01-17"
     },
     {
+      "slug": "jump-game",
+      "name": "Jump Game",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "path": "medium/jump-game/solution.py",
+      "date_solved": "2026-01-17"
+    },
+    {
       "slug": "longest-substring-without-repeating-characters",
       "name": "Longest Substring Without Repeating Characters",
       "difficulty": "Medium",
