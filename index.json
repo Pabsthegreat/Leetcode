@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "search-insert-position",
+      "name": "Search Insert Position",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "easy/search-insert-position/solution.py",
+      "date_solved": "2026-01-18"
+    },
+    {
       "slug": "candy",
       "name": "Candy",
       "difficulty": "Hard",
