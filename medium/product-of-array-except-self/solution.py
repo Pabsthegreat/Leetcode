@@ -35,20 +35,19 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The out
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def productExceptSelf(self, nums):
         """
         :type nums: List[int]
-        :type target: int
         :rtype: List[int]
         """
-        ind = {}
-        
+        arr = [1]*len(nums)
+        l = 1
         for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+            arr[i] = arr[i] * l
+            l *= nums[i]
+
+        r = 1
+        for i in range(len(nums)-1,-1,-1):
+            arr[i] = arr[i] * r
+            r *= nums[i]
+        return arr
