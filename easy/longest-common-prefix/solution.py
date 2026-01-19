@@ -34,20 +34,16 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def longestCommonPrefix(self, strs):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type strs: List[str]
+        :rtype: str
         """
-        ind = {}
+        c= ""
+        for i,s in enumerate(strs[0]):
+            for k in strs[1:]:
+                if k[0:i+1] != strs[0][0:i+1]:
+                    return c
+            c += s
+        return c
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
