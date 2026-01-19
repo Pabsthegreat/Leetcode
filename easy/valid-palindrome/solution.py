@@ -40,21 +40,20 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        f = 0
+        b = len(s) - 1
+
+        while f < b:
+            while f < b and not s[f].isalnum():
+                f += 1
+            while f < b and not s[b].isalnum():
+                b -= 1
+            if s[f].lower() != s[b].lower():
+                return False
+
+            f += 1
+            b -= 1
+
+        return True
