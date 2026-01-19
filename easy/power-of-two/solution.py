@@ -40,21 +40,10 @@ Follow up: Could you solve it without loops/recursion?
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        b = str(bin(n))[2:]
+        if b[0] == "1" and b.count("1") == 1:
+            return True
+        return False
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
