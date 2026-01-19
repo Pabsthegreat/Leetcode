@@ -46,21 +46,21 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def makeFancyString(self, s: str) -> str:
+        if not s:
+            return ""
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        s1 = s[0]
+        count = 1  
         
-        return None
+        for i in range(1, len(s)):
+            if s[i] == s[i - 1]:
+                count += 1
+            else:
+                count = 1 
+            
+            if count < 3:
+                s1 += s[i]
+        
+        return s1
