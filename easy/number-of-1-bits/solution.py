@@ -52,20 +52,13 @@ Follow up: If this function is called many times, how would you optimize it?
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def hammingWeight(self, n):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type n: int
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        count = 0
+        while n:
+            n = n & n-1
+            count+=1
+        return count
