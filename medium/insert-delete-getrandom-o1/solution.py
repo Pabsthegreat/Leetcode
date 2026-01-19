@@ -45,21 +45,37 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
+import random
+
+class RandomizedSet(object):
+
+    def __init__(self):
+        self.s = set()
+
+    def insert(self, val):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type val: int
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        if val in self.s:
+            return False
+        else:
+            self.s.add(val)
+            return True
+
+    def remove(self, val):
+        """
+        :type val: int
+        :rtype: bool
+        """
+        if val in self.s:
+            self.s.remove(val)
+            return True
+        else:
+            return False
+
+    def getRandom(self):
+        """
+        :rtype: int
+        """
+        return random.choice(list(self.s))
