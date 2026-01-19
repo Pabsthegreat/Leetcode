@@ -38,20 +38,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def findMedianSortedArrays(self, nums1, nums2):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        nums1 += nums2
+        nums1.sort()
+
+        n = len(nums1)
+
+        if n % 2 != 0:
+            # Odd number of elements, median is the middle element
+            return nums1[n // 2]
+        else:
+            # Even number of elements, median is the average of the two middle elements
+            return (nums1[n // 2] + nums1[n // 2 - 1]) / 2.0
