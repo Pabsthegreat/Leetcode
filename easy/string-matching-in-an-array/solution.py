@@ -40,21 +40,12 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def stringMatching(self, words: List[str]) -> List[str]:
+        l = set()
+        for i in words:
+            for j in words:
+                if i in j and i!=j:
+                    l.add(i)
+
+        return list(l)
