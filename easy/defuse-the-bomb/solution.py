@@ -49,21 +49,25 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+from typing import List
+
+class Solution:
+    def decrypt(self, code: List[int], k: int) -> List[int]:
+        l = len(code)
+        s = [0] * l  # Initialize the result list with zeros
+
+        if k == 0:
+            return [0] * l
+
+        for i in range(l):
+            su = 0
+            if k > 0:  # If k is positive, sum the next k elements
+                for j in range(1, k + 1):
+                    su += code[(i + j) % l]
+            else:  # If k is negative, sum the previous k elements
+                for j in range(1, abs(k) + 1):
+                    su += code[(i - j + l) % l]
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+            s[i] = su  # Update the result list with the computed sum
+
+        return s
