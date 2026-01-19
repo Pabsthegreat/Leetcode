@@ -40,20 +40,12 @@ Follow up: Could you solve it without converting the integer to a string?
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def isPalindrome(self, x):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type x: int
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        x = str(x)
+        if x == x[::-1]:
+            return True
+        return False
