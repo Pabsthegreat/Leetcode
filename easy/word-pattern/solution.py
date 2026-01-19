@@ -55,20 +55,26 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def wordPattern(self, pattern, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type pattern: str
+        :type s: str
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        d = {}
+        s = s.split()
+        t = pattern
+        if len(s) != len(t):
+            return False
+        se = set()
+        n = len(t)
+        for i in range(n):
+            if t[i] not in d:
+                if s[i] not in se:
+                    d[t[i]] = s[i]
+                    se.add(s[i])
+                else:
+                    return False
+            elif d[t[i]] != s[i]:
+                return False
+        return True
