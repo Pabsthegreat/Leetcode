@@ -48,21 +48,25 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def largestGoodInteger(self, num: str) -> str:
+        m = ""
+        i = 0
+        if len(num) < 3:
+            return ""
+        else:
+            while i < len(num)-2:
+                l = len(set(num[i:i+3]))
+                if l == 3:
+                    i += 2
+                elif l == 2:
+                    if num[i+2] != num[i+1]:
+                        i+=2
+                    else:
+                        i+=1
+                elif l == 1:
+                    if num[i:i+3] > m:
+                        m = num[i:i+3]
+                    i+=3
+
+            return m
