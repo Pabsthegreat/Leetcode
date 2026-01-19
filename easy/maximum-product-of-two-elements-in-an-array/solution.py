@@ -35,21 +35,8 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+        x = max(nums)
+        nums.remove(x)
+        return (x-1)*(max(nums)-1)
