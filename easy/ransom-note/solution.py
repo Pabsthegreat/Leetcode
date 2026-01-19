@@ -32,20 +32,24 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def canConstruct(self, ransomNote, magazine):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type ransomNote: str
+        :type magazine: str
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        d = {}
+        for i in magazine:
+            if i not in d:
+                d[i] = 1
+            else:
+                d[i] += 1
+        for j in ransomNote:
+            if j not in d:
+                return False
+            else:
+                if d[j] == 0:
+                    return False
+                else:
+                    d[j] -= 1
+        return True
