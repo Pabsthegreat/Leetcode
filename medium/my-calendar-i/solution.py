@@ -42,21 +42,22 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class MyCalendar:
+
+    def __init__(self):
+        self.time = []
+
+    def book(self, startTime: int, endTime: int) -> bool:
+        for start, end in self.time:
+            if startTime < end and endTime > start:
+                return False
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        self.time.append([startTime, endTime])
+        return True
+
         
-        return None
+
+
+# Your MyCalendar object will be instantiated and called as such:
+# obj = MyCalendar()
+# param_1 = obj.book(startTime,endTime)
