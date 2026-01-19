@@ -39,20 +39,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def lengthOfLongestSubstring(self, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        l = 0
+        d = {}
+        max_len = 0
+
+        for r in range(len(s)):
+            if s[r] in d and d[s[r]] >= l:
+                l = d[s[r]] + 1  # move left just past the last occurrence
+            d[s[r]] = r  # store/update the current index
+            max_len = max(max_len, r - l + 1)
+
+        return max_len
+
