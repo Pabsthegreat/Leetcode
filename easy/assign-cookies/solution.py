@@ -41,21 +41,18 @@ Note: This question is the same as  2410: Maximum Matching of Players With Train
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def findContentChildren(self, g: List[int], s: List[int]) -> int:
+        g.sort()
+        s.sort()
+        c=0
+        cc=0
+        count=0
+        while c<len(g) and cc<len(s):
+            if g[c]<=s[cc]:
+                count+=1
+                c+=1
+                cc+=1
+            else:
+                cc+=1
+        return count
