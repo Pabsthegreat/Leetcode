@@ -33,20 +33,16 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def rotate(self, matrix):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        ind = {}
+        n = len(matrix)
+        for i in range(n):
+            for j in range(i):
+                matrix[i][j],matrix[j][i] = matrix[j][i], matrix[i][j]
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        for row in matrix:
+            row = row.reverse()
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
