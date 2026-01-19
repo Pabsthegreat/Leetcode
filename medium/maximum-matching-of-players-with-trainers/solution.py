@@ -44,21 +44,19 @@ Note: This question is the same as  445: Assign Cookies.
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
+        players.sort()
+        trainers.sort()
+        p=0
+        c=0
+        t=0
+        while p<len(players) and t<len(trainers):
+            if players[p]<=trainers[t]:
+                c+=1
+                t+=1
+                p+=1
+            else:
+                t+=1
+        return c
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
