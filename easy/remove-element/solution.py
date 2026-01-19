@@ -60,20 +60,26 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def removeElement(self, nums, val):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type val: int
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        l = len(nums)
+        c = 0
+        for i in range(l):
+            if nums[i] == val:
+                nums[i] = -1
+                c +=1
+        j = 0
+        k = l-1
+        while j < l-1 and k > 0:
+            if nums[j] == -1:
+                while nums[k] == -1 and k > l-c:
+                    k -= 1
+                temp = nums[k]
+                nums[k] = -1
+                nums[j] = temp
+            j += 1
+        return l-c
