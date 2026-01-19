@@ -49,21 +49,34 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+class Solution:
+    def summaryRanges(self, nums: List[int]) -> List[str]:
+        if len(nums) == 0:
+            return nums
+        r = []
+        start = nums[0]
+        j = 1
+        end = start
+        for i in nums[1:]:
+            if i == start + j:
+                j+=1
+                end = i
+                continue
+            else:
+                if start == end:
+                    r += [str(start)]
+                    j = 1
+                    start = i
+                    end = start
+                else:
+                    r += [str(start)+"->"+str(end)]
+                    j = 1
+                    start = i
+                    end = start
+        if start == end:
+            r += [str(start)]
+        else:
+            r  += [str(start)+"->"+str(end)]
+        return r
+
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
