@@ -34,21 +34,13 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
+        l = []
+        le = len(matrix)
+        for i in range(len(matrix[0])):
+            x = []
+            for j in range(len(matrix)):
+                x+=[matrix[j][i]]
+            l += [x]
+        return l
