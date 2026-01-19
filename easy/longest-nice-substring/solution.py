@@ -41,20 +41,33 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def longestNiceSubstring(self, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :rtype: str
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        if len(s) == 1:
+            return ""
+        d = ord("a") - ord("A")
+        r = ""
+        w = list(s)
+        for i in s:
+            m = ""
+            for j in w:
+                m+=j
+                if len(m) > 1:
+                    f = True
+                    s1 = list(m)
+                    for k in s1:
+                        if k.swapcase() not in s1:
+                            f = False
+                            break
+
+                    if f == True and len(m) > len(r):
+                        r = m
+            w.pop(0)
+        return r
+
+
+                
+                
