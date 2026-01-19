@@ -41,20 +41,18 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def lengthOfLastWord(self, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        length = 0
+        for i in range(len(s)-1,-1,-1):
+            if s[i] == ' ':
+                if length > 0:
+                    return length
+                else:
+                    continue
+            length += 1
+        return length
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
