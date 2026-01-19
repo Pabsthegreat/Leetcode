@@ -57,21 +57,33 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        d = {"M":1000,"C":100,"D":500,"L":50,"X":10,"V":5,"I":1}
+        m = {"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,"CM":900}
+        l = list(s)
+        t = ""
+        i = 0
+        while i < len(s)-2:
+            t += s[i]
+            t1 = s[i+1]
+            if t+t1 in m:
+                l[i] = m[t+t1]
+                l[i+1] = 0
+                t = ""
+                i+=2
+            else:
+                l[i] = d[s[i]]
+                i+=1
+                t = ""
+        if len(s) > 1:
+            if s[-2:] in m:
+                l[-1] = m[s[-2:]]
+                l[-2] = 0
+            else:
+                if l[-1] != 0:
+                    l[-1] = d[s[-1]]
+                if l[-2] != 0:
+                    l[-2] = d[s[-2]]
+            return sum(l)
+        return d[s]
