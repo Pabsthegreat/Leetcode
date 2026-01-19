@@ -36,20 +36,21 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def rob(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        robbed = {}
+        def dp(n):
+            if n < 0:
+                return 0
+            elif n == 0:
+                return nums[0]
+            elif n == 1:
+                return max(nums[0],nums[1])
+            elif n in robbed:
+                return robbed[n]
+            robbed[n] = max(dp(n-2)+nums[n], dp(n-1))
+            return robbed[n]
+        return dp(len(nums)-1)
