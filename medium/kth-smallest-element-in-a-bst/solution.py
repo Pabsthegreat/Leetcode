@@ -34,20 +34,40 @@ Follow up: If the BST is modified often (i.e., we can do insert and delete opera
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+    def kthSmallest(self, root, k):
+        stack = []
+        current = root
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        while stack or current:
+            while current:
+                stack.append(current)
+                current = current.left
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+            current = stack.pop()
+            k -= 1
+            if k == 0:
+                return current.val
+            current = current.right
+
+# class Solution(object):
+#     def kthSmallest(self, root, k):
+#         """
+#         :type root: Optional[TreeNode]
+#         :type k: int
+#         :rtype: int
+#         """
+#         self.count = 0
+#         self.result = None
         
-        return None
+#         def dfs(node):
+#             if not node or self.result is not None:
+#                 return
+#             dfs(node.left)
+#             self.count += 1
+#             if self.count == k:
+#                 self.result = node.val
+#                 return
+#             dfs(node.right)
+            
+#         dfs(root)
+#         return self.result
