@@ -43,20 +43,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def countConsistentStrings(self, allowed, words):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type allowed: str
+        :type words: List[str]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        flag = True
+        count=0
+        for i in words:
+            flag = True
+            for j in i:
+                if j not in allowed:
+                    flag = False
+                    break
+            if flag == True:
+                count+=1
+        return count
