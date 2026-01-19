@@ -53,21 +53,25 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+        prev = None
+        pres = head
+        l = set(nums)
+        while pres != None:
+            if pres.val in l:
+                if prev==None:
+                    head = pres.next
+                    pres = pres.next
+                else:
+                    prev.next=pres.next
+                    pres=prev.next
+            else:
+                prev=pres
+                pres=pres.next
+        return head
