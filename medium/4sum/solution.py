@@ -37,20 +37,36 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def fourSum(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
-        :rtype: List[int]
+        :rtype: List[List[int]]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        nums.sort()
+        l = []
+        n = len(nums)
+        for i in range(n - 3):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+            for j in range(i + 1, n - 2):
+                if j > i + 1 and nums[j] == nums[j - 1]:
+                    continue
+                rem = target - (nums[i] + nums[j])
+                left = j + 1
+                right = n - 1
+                while left < right:
+                    s = nums[left] + nums[right]
+                    if s == rem:
+                        l.append([nums[i], nums[j], nums[left], nums[right]])
+                        while left < right and nums[left] == nums[left + 1]:
+                            left += 1
+                        while left < right and nums[right] == nums[right - 1]:
+                            right -= 1
+                        left += 1
+                        right -= 1
+                    elif s < rem:
+                        left += 1
+                    else:
+                        right -= 1
+        return l
