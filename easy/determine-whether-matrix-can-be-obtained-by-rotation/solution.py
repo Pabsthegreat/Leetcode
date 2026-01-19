@@ -40,20 +40,31 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+    def findRotation(self, mat, target):
+        n = len(mat)
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        def check_0():
+            return mat == target
             
-            if complement in ind:
-                return [ind[complement], i] 
+        def check_90():
+            for i in range(n):
+                for j in range(n):
+                    if mat[i][j] != target[j][n-1-i]:
+                        return False
+            return True
             
-            ind[nums[i]] = i
+        def check_180():
+            for i in range(n):
+                for j in range(n):
+                    if mat[i][j] != target[n-1-i][n-1-j]:
+                        return False
+            return True
+            
+        def check_270():
+            for i in range(n):
+                for j in range(n):
+                    if mat[i][j] != target[n-1-j][i]:
+                        return False
+            return True
         
-        return None
+        return check_0() or check_90() or check_180() or check_270()
