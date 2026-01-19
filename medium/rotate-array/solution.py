@@ -44,20 +44,24 @@ Follow up:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def rotate(self, nums, k):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        n = len(nums)
+        k %= n
+        start = 0
+        count = 0
+        while count < n:
+            current = start
+            prev = nums[start]
+            while True:
+                next_index = (current + k) % n
+                nums[next_index], prev = prev , nums[next_index]
+                current = next_index
+                count += 1
+                if current == start:
+                    break
+            start += 1
