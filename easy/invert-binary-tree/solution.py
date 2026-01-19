@@ -34,21 +34,22 @@ Constraints:
 """
 
 // [Solution]
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution(object):
-    def twoSum(self, nums, target):
+    def invertTree(self, root):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type root: Optional[TreeNode]
+        :rtype: Optional[TreeNode]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        if not root:
+            return root
+        left = self.invertTree(root.right)
+        right = self.invertTree(root.left)
+        root.left = left
+        root.right = right
+        return root
