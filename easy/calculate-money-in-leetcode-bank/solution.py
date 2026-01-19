@@ -40,21 +40,16 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def totalMoney(self, n: int) -> int:
+        c = 0
+        i = 0
+
+        while i < n//7:
+            c+= (28 + 7*i)
+            i += 1
+
+        if n%7 != 0:
+            for j in range(1,(n%7)+1):
+                c += j+i
+        return c
