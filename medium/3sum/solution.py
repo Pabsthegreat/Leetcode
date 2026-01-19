@@ -45,20 +45,34 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def threeSum(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: List[List[int]]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        nums.sort()
+        l = []
+        n = len(nums)
+        for i in range(n - 2):  # Fixed: go up to n-2 (inclusive)
+            if i > 0 and nums[i] == nums[i - 1]:  # Fixed: skip duplicates properly
+                continue
+            left = i + 1
+            right = n - 1
+            while left < right:
+                total = nums[i] + nums[left] + nums[right]
+                if total == 0:
+                    l.append([nums[i], nums[left], nums[right]])
+                    # Skip duplicates for left
+                    while left < right and nums[left] == nums[left + 1]:
+                        left += 1
+                    # Skip duplicates for right
+                    while left < right and nums[right] == nums[right - 1]:
+                        right -= 1
+                    # Move to new values
+                    left += 1
+                    right -= 1
+                elif total > 0:
+                    right -= 1
+                else:
+                    left += 1
+        return l
