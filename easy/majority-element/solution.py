@@ -34,20 +34,19 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def majorityElement(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        d = {}
+        t = len(nums)//2
+        for i in nums:
+            if i in d:
+                d[i] += 1
+                if d[i] > t:
+                    return i
+            else:
+                d[i] = 1
+                if d[i] > t:
+                    return i
