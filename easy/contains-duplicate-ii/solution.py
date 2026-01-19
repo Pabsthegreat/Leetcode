@@ -36,20 +36,19 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def containsNearbyDuplicate(self, nums, k):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type k: int
+        :rtype: bool
         """
-        ind = {}
-        
+        d = {}
         for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+            if nums[i] in d:
+                if abs(d[nums[i]]-i) <= k:
+                    return True
+                else:
+                    d[nums[i]] = i
+            else:
+                d[nums[i]] = i
+        return False
