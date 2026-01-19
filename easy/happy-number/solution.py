@@ -41,21 +41,12 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        seen = set()  # Keep track of numbers we've already seen
+        while n != 1:
+            if n in seen:
+                return False  # We've encountered a cycle, so it's not a happy number
+            seen.add(n)
+            n = sum(int(digit)**2 for digit in str(n))  # Sum the squares of the digits
+        return True
