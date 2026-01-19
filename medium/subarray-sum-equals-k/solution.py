@@ -29,21 +29,14 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        count = 0
+        d = {0: 1}
+        s = 0
+        for n in nums:
+            s += n
+            if s - k in d:
+                count += d[s - k]
+            d[s] = d.get(s, 0) + 1  # update after checking
+        return count
