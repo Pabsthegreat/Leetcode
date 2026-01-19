@@ -99,21 +99,71 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+class Solution:
+    def myAtoi(self, s: str) -> int:
+        #from here
+        # s = s.strip()
+        # if not s:
+        #     return 0
+        # sign = 1
+        # r = "0"
+        # if not (s[0].isdigit() or (s[0] in "+-")):
+        #     return 0
+        # if s[0] == "-":
+        #     sign = -1
+        # elif s[0] == "+":
+        #     sign = 1
+        # else:
+        #     r += s[0]
+        # if len(s) >= 2:
+        #     i = 1 
+        # else:
+        #     return int(r)
+        # while (i < len(s) and s[i].isdigit() and s[i] == "0"):
+        #     i+=1
+        # while i < len(s):
+        #     if not s[i].isdigit():
+        #         return int(r)* sign
+        #     else:
+        #         r += s[i]
+        #     i+=1
+
+        s = s.strip()
+        if not s:
+            return 0
+        r = "0"
+        sign = 0
+        start = 0
+        for i in s:
+            if i.isdigit():
+                if sign == 0:
+                    sign = 1
+                if start == 0 and i == "0":
+                    continue
+                elif start == 0 and i!="0":
+                    start = 1
+                    r+=i
+                else:
+                    r+=i
+            elif i in "+-":
+                if sign!= 0:
+                    break
+                elif i == "+":
+                    sign = 1
+                else:
+                    sign = -1
+            else:
+                break
+
+        INT_MIN = -2**31
+        INT_MAX = 2**31 - 1
+        result = int(r) * sign if r else 0
+        if result < INT_MIN:
+            return INT_MIN
+        elif result > INT_MAX:
+            return INT_MAX
+        else:
+            return result
+
+
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
