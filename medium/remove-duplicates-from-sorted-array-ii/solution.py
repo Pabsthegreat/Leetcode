@@ -57,20 +57,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def removeDuplicates(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        k = 1
+        b = 0
+        for i in range(1,len(nums)):
+            if nums[i] == nums[i-1] and b < 1:
+                b += 1
+                nums[k] = nums[i]
+                k += 1
+            elif nums[i] != nums[i-1]:
+                b = 0
+                nums[k] = nums[i]
+                k += 1
+        return k
