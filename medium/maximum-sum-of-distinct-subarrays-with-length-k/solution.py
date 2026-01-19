@@ -46,21 +46,28 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+from typing import List
+
+class Solution:
+    def maximumSubarraySum(self, nums: List[int], k: int) -> int:
+        ma = 0
+        current_sum = 0
+        unique_elements = set()
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        left = 0
+        for right in range(len(nums)):
+            while nums[right] in unique_elements:
+                unique_elements.remove(nums[left])
+                current_sum -= nums[left]
+                left += 1
+                
+            unique_elements.add(nums[right])
+            current_sum += nums[right]
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+            if right - left + 1 == k:
+                ma = max(ma, current_sum)
+                unique_elements.remove(nums[left])
+                current_sum -= nums[left]
+                left += 1
         
-        return None
+        return ma
