@@ -39,20 +39,17 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+    def merge(self, intervals):
+        if not intervals:
+            return []
+        intervals.sort(key=lambda x: x[0])
+        final = []
+        ll, ul = intervals[0]
+        for i in intervals[1:]:  # start from second interval
+            if i[0] > ul:
+                final.append([ll, ul])  # faster than +=
+                ll, ul = i
+            else:
+                ul = max(ul, i[1])
+        final.append([ll, ul])  # faster than +=
+        return final
