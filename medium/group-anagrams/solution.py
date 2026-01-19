@@ -45,20 +45,20 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def groupAnagrams(self, strs):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type strs: List[str]
+        :rtype: List[List[str]]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        l = []
+        d = {}
+        c = 0
+        for i in strs:
+            s = "".join(sorted(i))
+            if s not in d:
+                d[s] = c
+                c+=1
+                l.append([i])
+            else:
+                l[d[s]].append(i)
+        return l
