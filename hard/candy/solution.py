@@ -41,20 +41,16 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+    def candy(self, ratings):
+        n = len(ratings)
+        candies = [1] * n
+
+        for i in range(1, n):
+            if ratings[i] > ratings[i - 1]:
+                candies[i] = candies[i - 1] + 1
+
+        for i in range(n - 2, -1, -1):
+            if ratings[i] > ratings[i + 1]:
+                candies[i] = max(candies[i], candies[i + 1] + 1)
+
+        return sum(candies)
