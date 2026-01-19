@@ -32,21 +32,10 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        if needle not in haystack:
+            return -1
+        else:
+            return haystack.index(needle)
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
