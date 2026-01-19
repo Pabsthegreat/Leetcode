@@ -48,20 +48,19 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def dividePlayers(self, skill):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type skill: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        skill.sort()
+        size=len(skill)-1
+        sk = skill[0] + skill[-1]
+        chem = 0
+        for i in range(len(skill)/2):
+            sktemp = skill[i]+skill[size-i]
+            if sktemp != sk:
+                return -1
+            else:
+                chem += skill[i]*skill[size-i]
+        return chem
