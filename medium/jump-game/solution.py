@@ -34,20 +34,14 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def canJump(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: bool
         """
-        ind = {}
-        
+        max_reach = 0
         for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+            if i > max_reach:
+                return False  # We can't reach this point
+            max_reach = max(max_reach, i + nums[i])
+        return True
