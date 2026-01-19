@@ -47,20 +47,22 @@ Follow-up: If the string data type is mutable in your language, can you solve 
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def reverseWords(self, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :rtype: str
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        res = ""
+        temp = ""
+        sp = 1
+        for i in range(len(s)-1,-1,-1):
+            print(s[i],temp, sp)
+            if s[i] == " " and sp != 1:
+                res += temp + " "
+                temp =""
+                sp = 1
+            elif s[i] != " ":
+                temp = s[i]+temp
+                sp = 0
+        res += temp
+        return res.strip()
