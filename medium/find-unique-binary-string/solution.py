@@ -41,20 +41,21 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def findDifferentBinaryString(self, nums):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type nums: List[str]
+        :rtype: str
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        n = len(nums)
+        s = set()
+        s.update({"0"*n, "1"*n})
+        for i in nums:
+            o = i.count("1")
+            m = "1"*(n-o) + "0"*o
+            p = "0"*(n-o) + "1"*o
+            s.update({m,p,m[::-1],p[::-1]})
+        s2 = list(s-set(nums))
+        if s2 == []:
+            return "1"* int(n/2) + "0"*int(n/2)
+        else:
+            return s2[0]
