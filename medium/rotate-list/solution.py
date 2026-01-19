@@ -31,20 +31,34 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+    def rotateRight(self, head, k):
+        if not head or not head.next or k == 0:
+            return head
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        # Count nodes
+        n = 0
+        t = head
+        while t:
+            n += 1
+            t = t.next
         
-        return None
+        m = k % n
+        if m == 0:
+            return head
+        
+        # Find new tail (at position n - m - 1)
+        new_tail = head
+        for _ in range(n - m - 1):
+            new_tail = new_tail.next
+        
+        # New head is next node
+        new_head = new_tail.next
+        new_tail.next = None  # Break the list
+        
+        # Connect old tail to old head
+        t = new_head
+        while t.next:
+            t = t.next
+        t.next = head
+        
+        return new_head
