@@ -57,21 +57,17 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def resultsArray(self, nums: List[int], k: int) -> List[int]:
+        s =[]
+        for i in range(0,len(nums)-k+1):
+            s+=[self.sorte(nums[i:i+k])]
+        return s
+
+    def sorte(self,t:List[int]):
+        for i in range(len(t)-1):
+            if (t[i+1]-t[i])==1:
+                continue
+            else:
+                return -1
+        return t[-1]
