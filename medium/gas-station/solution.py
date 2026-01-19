@@ -51,20 +51,19 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+    def canCompleteCircuit(self, gas, cost):
+        total_tank = 0
+        current_tank = 0
+        start_index = 0
+
+        for i in range(len(gas)):
+            gain = gas[i] - cost[i]
+            total_tank += gain
+            current_tank += gain
+
+            if current_tank < 0:
+                # Cannot reach i+1, restart from i+1
+                start_index = i + 1
+                current_tank = 0
+
+        return start_index if total_tank >= 0 else -1
