@@ -50,20 +50,15 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxCoins(self, piles):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type piles: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        l = sorted(piles,reverse = True)
+        s = 0
+        c = 0
+        for i in range(1,int(len(l)/3)+1):
+            s+= l[i+c]
+            c+=1
+        return s
