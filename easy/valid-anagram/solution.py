@@ -34,21 +34,12 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if set(s) != set(t):
+            return False
+        else:
+            for i in set(s):
+                if s.count(i) != t.count(i):
+                    return False
+        return True
