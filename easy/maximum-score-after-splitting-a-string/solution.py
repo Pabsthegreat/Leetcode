@@ -44,21 +44,31 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def maxScore(self, s: str) -> int:
+        o = [0]
+        z = [0]
+        l = len(s) - 1
+
+        # Compute cumulative counts
+        for i in range(len(s)):
+            if s[i] == "0":
+                z.append(z[-1] + 1)
+            else:
+                z.append(z[-1])
+
+            if s[l - i] == "1":
+                o.append(o[-1] + 1)
+            else:
+                o.append(o[-1])
+
+        # Reverse the `o` array and slice `z` correctly
+        z = z[1:]
+        o = o[::-1]
+
+        # Calculate the maximum score
+        m = 0
+        for i in range(len(z) - 1):  # Split points are from 0 to len(s)-2
+            if o[i + 1] + z[i] > m:
+                m = o[i + 1] + z[i]
+        return m
