@@ -1,7 +1,7 @@
 """
 [Description]
 Add Binary
-https://leetcode.com/problems/add-binary/submissions/1889455940/
+https://leetcode.com/problems/add-binary/
 
 Given two binary strings a and b, return their sum as a binary string.
 
