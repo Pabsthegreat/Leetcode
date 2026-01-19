@@ -38,21 +38,31 @@ Constraints:
 """
 
 // [Solution]
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution(object):
-    def twoSum(self, nums, target):
+    def numComponents(self, head, nums):
         """
+        :type head: ListNode
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
+        num_set = set(nums)  # Use a set for O(1) lookups
+        count = 0
+        in_component = False
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        while head:
+            if head.val in num_set:
+                if not in_component:
+                    # We found the start of a new component
+                    count += 1
+                    in_component = True
+            else:
+                in_component = False  # End of a component
+                
+            head = head.next
         
-        return None
+        return count
