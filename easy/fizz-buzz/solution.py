@@ -34,20 +34,27 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def fizzBuzz(self, n):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type n: int
+        :rtype: List[str]
         """
-        ind = {}
+        l =[]
+        c = 1
+        while c != n+1:
+            s = str(c)
+            thr = (c % 3 == 0)
+            fiv = (c % 5 == 0)
+            if fiv and thr is True:
+                l += ["FizzBuzz"]
+            elif thr == True and fiv == False:
+                l += ["Fizz"]
+            elif fiv == True and thr == False:
+                l += ["Buzz"]
+            else:
+                l+=[s]
+            c+=1
+
+        return l
+
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
