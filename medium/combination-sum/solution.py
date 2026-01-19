@@ -44,21 +44,18 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        def backtrack(start, target, path):
+            if target == 0:
+                res.append(path)
+                return
+            for i in range(start, len(candidates)):
+                if candidates[i] > target:
+                    continue
+                backtrack(i, target - candidates[i], path + [candidates[i]])
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        res = []
+        candidates.sort()  # Optional: to avoid duplicate combinations
+        backtrack(0, target, [])
+        return res
