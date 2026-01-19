@@ -33,20 +33,23 @@ Follow up: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def isSubsequence(self, s, t):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :type t: str
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        n = 0
+        m = 0
+        while n < len(s) and m < len(t):
+            print(s[n],t[m])
+            if s[n] == t[m]:
+                n +=1
+                m +=1
+            else:
+                m+=1
+        if n == len(s):
+            return True
+        else:
+            return False
+        return False
