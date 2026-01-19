@@ -43,21 +43,71 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+from typing import List
+
+class Solution:
+    def countUnguarded(self, m: int, n: int, guards: List[List[int]], walls: List[List[int]]) -> int:
+        # Create the grid and mark guards and walls
+        grid = [[0] * n for _ in range(m)]
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        for g in guards:
+            grid[g[0]][g[1]] = 1  # Mark guards as 1
         
-        return None
+        for w in walls:
+            grid[w[0]][w[1]] = 2  # Mark walls as 2
+        
+        # Directions: left, right, up, down
+        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        
+        # Mark cells guarded by guards
+        for guard in guards:
+            x, y = guard
+            for dx, dy in directions:
+                nx, ny = x + dx, y + dy
+                while 0 <= nx < m and 0 <= ny < n and grid[nx][ny] != 1 and grid[nx][ny] != 2:
+                    grid[nx][ny] = 3  # Mark as guarded
+                    nx += dx
+                    ny += dy
+        
+        # Count unguarded cells
+        unguarded_count = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 0:  # Cell is unguarded
+                    unguarded_count += 1
+        
+        return unguarded_count
+from typing import List
+
+class Solution:
+    def countUnguarded(self, m: int, n: int, guards: List[List[int]], walls: List[List[int]]) -> int:
+        # Create the grid and mark guards and walls
+        grid = [[0] * n for _ in range(m)]
+        
+        for g in guards:
+            grid[g[0]][g[1]] = 1  # Mark guards as 1
+        
+        for w in walls:
+            grid[w[0]][w[1]] = 2  # Mark walls as 2
+        
+        # Directions: left, right, up, down
+        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        
+        # Mark cells guarded by guards
+        for guard in guards:
+            x, y = guard
+            for dx, dy in directions:
+                nx, ny = x + dx, y + dy
+                while 0 <= nx < m and 0 <= ny < n and grid[nx][ny] != 1 and grid[nx][ny] != 2:
+                    grid[nx][ny] = 3  # Mark as guarded
+                    nx += dx
+                    ny += dy
+        
+        # Count unguarded cells
+        unguarded_count = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 0:  # Cell is unguarded
+                    unguarded_count += 1
+        
+        return unguarded_count
