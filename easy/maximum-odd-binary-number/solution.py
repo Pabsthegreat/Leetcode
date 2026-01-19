@@ -39,20 +39,11 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maximumOddBinaryNumber(self, s):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type s: str
+        :rtype: str
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        o = s.count("1")
+        l = len(s)
+        return (o-1)*"1"+(l-o)*"0"+"1"
