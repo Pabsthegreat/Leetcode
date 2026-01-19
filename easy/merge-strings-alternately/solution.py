@@ -49,20 +49,15 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+    def mergeAlternately(self, word1, word2):
+        c = 1
+        m = list(word1)
+        for i in range(len(word2)):
+            m.insert(i+c, word2[i])
+            c+=1
+        return "".join(m)
+    
+
+
+
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
