@@ -41,20 +41,34 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def insert(self, intervals, newInterval):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type intervals: List[List[int]]
+        :type newInterval: List[int]
+        :rtype: List[List[int]]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        if not intervals:
+            return [newInterval]
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        result = []
+        i = 0
+        n = len(intervals)
         
-        return None
+        # Add all intervals ending before newInterval starts
+        while i < n and intervals[i][1] < newInterval[0]:
+            result.append(intervals[i])
+            i += 1
+        
+        # Merge all overlapping intervals with newInterval
+        while i < n and intervals[i][0] <= newInterval[1]:
+            newInterval[0] = min(newInterval[0], intervals[i][0])
+            newInterval[1] = max(newInterval[1], intervals[i][1])
+            i += 1
+        result.append(newInterval)
+        
+        # Add remaining intervals
+        while i < n:
+            result.append(intervals[i])
+            i += 1
+            
+        return result
