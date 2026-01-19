@@ -46,21 +46,16 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        c = (digits[-1] + 1) // 10
+        digits[-1] = (digits[-1] + 1) % 10
+        for i in range(len(digits)-2,-1,-1):
+            if c == 0:
+                break
+            cx = c
+            c = (digits[i] + c) // 10
+            digits[i] = (digits[i] + cx) % 10
+        if c != 0:
+            digits = [c] + digits
+        return digits
