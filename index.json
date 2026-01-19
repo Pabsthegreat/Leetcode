@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "add-binary",
+      "name": "Add Binary",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "String",
+        "Bit Manipulation",
+        "Simulation"
+      ],
+      "path": "easy/add-binary/solution.py",
+      "date_solved": "2026-01-19"
+    },
+    {
       "slug": "search-insert-position",
       "name": "Search Insert Position",
       "difficulty": "Easy",
