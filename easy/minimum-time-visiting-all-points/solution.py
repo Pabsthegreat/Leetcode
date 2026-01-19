@@ -48,21 +48,47 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
+        t = 0
+        for i, p in enumerate(points[0:len(points)-1]):
+            z = points[i+1]
+            x = p[0]
+            y = p[1]
+            while x!= z[0] or y!=z[1]:
+                if [x,y] == z:
+                    break
+                elif abs(x - z[0]) >= 1 and abs(y-z[1]) >=1 :
+                    if x < z[0] and y < z[1]:
+                        lot = min(z[0]-x,z[1]-y)
+                        x += lot
+                        y += lot
+                        t += lot
+                    elif x > z[0] and y > z[1]:
+                        lot = min(x-z[0],y-z[1])
+                        x -= lot
+                        y -= lot
+                        t += lot
+                    else:
+                        lot = min(abs(x-z[0]),abs(y-z[1]))
+                        if x < z[0] and y > z[1]:
+                            x += lot
+                            y -= lot
+                        else:
+                            x -= lot
+                            y+= lot
+                        t+= lot
+
+                elif abs(x - z[0]) >= 1 and y == z[1]:
+                    t += abs(z[0] - x)
+                    x += z[0] - x
+                    break
+                else:
+                    t += abs(z[1] - y)
+                    y += z[1] - y
+                    break
+        return t
+
+
+
+                
