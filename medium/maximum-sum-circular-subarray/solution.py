@@ -43,20 +43,38 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxSubarraySumCircular(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
+        def kadane(arr):
+            """Standard Kadane's algorithm for max subarray"""
+            current = max_sum = arr[0]
+            for num in arr[1:]:
+                current = max(num, current + num)
+                max_sum = max(max_sum, current)
+            return max_sum
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        def min_kadane(arr):
+            """Kadane's for minimum subarray"""
+            current = min_sum = arr[0]
+            for num in arr[1:]:
+                current = min(num, current + num)
+                min_sum = min(min_sum, current)
+            return min_sum
         
-        return None
+        n = len(nums)
+        if n == 1:
+            return nums[0]
+        
+        max_normal = kadane(nums)
+        min_subarray = min_kadane(nums)
+        total = sum(nums)
+        max_circular = total - min_subarray
+        
+        # Handle all-negative case
+        if max_circular == 0:  # Only happens when all elements are negative
+            return max_normal
+        
+        return max(max_normal, max_circular)
