@@ -43,21 +43,16 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+class Solution:
+    def largestCombination(self, candidates: List[int]) -> int:
+        max_bit = max(candidates).bit_length()
+        max_count = 0
+
+        for bit in range(max_bit):
+            count = 0
+            for num in candidates:
+                if num & (1 << bit):
+                    count += 1
+            max_count = max(max_count, count)
+
+        return max_count
