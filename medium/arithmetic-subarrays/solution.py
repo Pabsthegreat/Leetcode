@@ -53,20 +53,23 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def checkArithmeticSubarrays(self, nums, l, r):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type l: List[int]
+        :type r: List[int]
+        :rtype: List[bool]
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        b = []
+        for i in range(len(l)):
+            n = sorted(nums[l[i]:r[i]+1])
+            cd = n[1]-n[0]
+            a = False
+            for i in range(len(n)-1):
+                if n[i+1]-n[i] != cd:
+                    b+=[False]
+                    a = True
+                    break
+            if a == False:
+                b+=[True]
+        return b
