@@ -32,20 +32,40 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxPoints(self, points):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type points: List[List[int]]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        n = len(points)
+        if n <= 2:
+            return n
             
-            if complement in ind:
-                return [ind[complement], i] 
+        m = 0
+        for i in range(n):
+            s = {}
+            same_point = 0  # Handle duplicate points
+            for j in range(i+1, n):
+                # Handle duplicate points
+                if points[i][0] == points[j][0] and points[i][1] == points[j][1]:
+                    same_point += 1
+                    continue
+                    
+                # Calculate slope
+                dx = points[j][0] - points[i][0]
+                dy = points[j][1] - points[i][1]
+                
+                if dx == 0:
+                    slope = float('inf')  # Vertical line
+                else:
+                    slope = float(dy) / float(dx)  # Ensure float division
+                    
+                s[slope] = s.get(slope, 0) + 1
             
-            ind[nums[i]] = i
-        
-        return None
+            # Current point + duplicates + max collinear points
+            current_max = same_point + 1  # At least the point itself + duplicates
+            if s:
+                current_max += max(s.values())
+            m = max(m, current_max)
+            
+        return m
