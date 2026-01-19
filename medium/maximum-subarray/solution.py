@@ -41,20 +41,15 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxSubArray(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
+        s = nums[0]
+        m = nums[0]
+        for i in nums[1:]:
+            s = max(s+i,i)
+            m = max(m,s)
+        return max(m,s)
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
