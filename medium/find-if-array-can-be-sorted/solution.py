@@ -48,21 +48,19 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+from typing import List
+
+class Solution:
+    def canSortArray(self, nums: List[int]) -> bool:
+        def count_set_bits(x):
+            return bin(x).count('1')
+
+        n = len(nums)
+        for i in range(n - 1):
+            for j in range(i + 1, n):
+                if nums[i] > nums[j]:
+                    if count_set_bits(nums[i]) == count_set_bits(nums[j]):
+                        nums[i], nums[j] = nums[j], nums[i]
+                    else:
+                        return False
+        return True
