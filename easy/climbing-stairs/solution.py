@@ -37,21 +37,28 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        if n == 0 or n == 1:
+            return 1
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
+        a, b = 1, 1  # dp[0], dp[1]
+        for i in range(2, n + 1):
+            a, b = b, a + b  # shift window forward
         
-        return None
+        return b
+
+        
+    # class Solution:
+    # def climbStairs(self, n: int) -> int:
+    #     memo = {}
+        
+    #     def dp(i):
+    #         if i == 0 or i == 1:
+    #             return 1
+    #         if i in memo:
+    #             return memo[i]
+    #         memo[i] = dp(i - 1) + dp(i - 2)
+    #         return memo[i]
+        
+    #     return dp(n)
