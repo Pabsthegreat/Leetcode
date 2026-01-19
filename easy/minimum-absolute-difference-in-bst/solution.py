@@ -33,20 +33,18 @@ Note: This question is the same as 783: https://leetcode.com/problems/minimum-di
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+    def getMinimumDifference(self, root):
+        self.prev = None
+        self.min_diff = float('inf')
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        def inorder(node):
+            if not node:
+                return
+            inorder(node.left)
+            if self.prev is not None:
+                self.min_diff = min(self.min_diff, node.val - self.prev)
+            self.prev = node.val
+            inorder(node.right)
             
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        inorder(root)
+        return self.min_diff
