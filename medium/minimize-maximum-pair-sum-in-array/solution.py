@@ -45,20 +45,23 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def minPairSum(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+
+     
+        nums.sort()
+        ma = 0
+        i=1
+        #for i in range(1,len(nums)//2+1):
+        while i <= len(nums)//2:
+            if ma < nums[i-1]+nums[-i]:
+                ma = (nums[i-1]+nums[-i])
+            i+=1
+        return ma
+
+
+
+# print(minPairSum([3,5,2,3]))
