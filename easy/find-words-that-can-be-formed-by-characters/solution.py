@@ -37,20 +37,29 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def countCharacters(self, words, chars):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type words: List[str]
+        :type chars: str
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        d = {}
+        s = set(chars)
+        c=0
+        for i in s:
+            d[i]=chars.count(i)
+        for j in words:
+            r = set(j)
+            if len(r) > len(s):
+                continue
+            else:
+                f = True
+                for i in r:
+                    if (i in s) and (j.count(i) <= d[i]):
+                        continue
+                    else:
+                        f = False
+                        break
+                if f == True:
+                    c+= len(j)
+        return c
