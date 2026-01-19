@@ -37,21 +37,31 @@ Follow up: A linked list can be reversed either iteratively or recursively. Coul
 """
 
 // [Solution]
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution(object):
-    def twoSum(self, nums, target):
+    def reverseList(self, head):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type head: Optional[ListNode]
+        :rtype: Optional[ListNode]
         """
-        ind = {}
+        # conn = None
+        # while head != None:
+        #     temp = head.next #storing the next node
+        #     head.next = conn #assigning the chain to previous node
+        #     conn = head #storing the current node as the connect for future node
+        #     head = temp #moving to the next node
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        # return conn
+        # Base case
+        if not head or not head.next:
+            return head
+        # Recursively reverse the rest
+        new_head = self.reverseList(head.next)
+        # Adjust pointers
+        head.next.next = head
+        head.next = None
+        return new_head
