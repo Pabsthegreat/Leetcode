@@ -36,21 +36,23 @@ Constraints:
 """
 
 // [Solution]
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution(object):
-    def twoSum(self, nums, target):
+    def isSameTree(self, p, q):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        if not p and not q:
+            return True
+        if not q or not p:
+            return False
+        if p.val != q.val:
+            return False
+        return self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
