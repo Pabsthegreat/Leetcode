@@ -37,20 +37,25 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxProfit(self, prices):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type prices: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        p0 = 0
+        price = 0
+        p1 = 0
+        temp = 0
+        for i in range(len(prices)):
+            if prices[i] < prices[p0]:
+                p0 = i
+                p1 = i
+                if temp > price:
+                    price = temp
+                temp = 0
+            if prices[i] > prices[p1]:
+                p1 = i
+                temp = prices[p1] - prices[p0]
+        if temp > price:
+            return temp
+        return price
