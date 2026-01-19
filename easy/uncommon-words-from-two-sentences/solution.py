@@ -41,21 +41,18 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        ind = {}
+class Solution:
+    def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
+        d={}
+        s1=s1.split()
+        s2=s2.split()
+        s1+=s2
+        for i in s1:
+            if i in d:
+                d[i]+=1
+            else:
+                d[i] = 1
+        print(d)
+        return [w for w in d if d[w]==1]
+
         
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
