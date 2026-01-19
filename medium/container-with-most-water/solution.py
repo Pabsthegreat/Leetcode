@@ -38,20 +38,24 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def maxArea(self, height):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type height: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        l = 0
+        r = len(height) - 1
+        m = 0
+
+        while l < r:
+            left = height[l]
+            right = height[r]
+            water = (r - l) * min(left, right)
+            m = max(m, water)
+
+            if left < right:
+                l += 1
+            else:
+                r -= 1
+
+        return m
