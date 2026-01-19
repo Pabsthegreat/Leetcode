@@ -41,20 +41,12 @@ Constraints:
 
 // [Solution]
 class Solution(object):
-    def twoSum(self, nums, target):
+    def singleNumber(self, nums):
         """
         :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :rtype: int
         """
-        ind = {}
-        
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            
-            if complement in ind:
-                return [ind[complement], i] 
-            
-            ind[nums[i]] = i
-        
-        return None
+        s = nums[0]
+        for i in nums[1:]:
+            s = s ^ i
+        return s
