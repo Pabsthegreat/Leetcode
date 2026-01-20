@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "construct-the-minimum-bitwise-array-i",
+      "name": "Construct the Minimum Bitwise Array I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "path": "easy/construct-the-minimum-bitwise-array-i/solution.py",
+      "date_solved": "2026-01-20"
+    },
+    {
       "slug": "add-binary",
       "name": "Add Binary",
       "difficulty": "Easy",
