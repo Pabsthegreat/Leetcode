@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "minimum-absolute-difference",
+      "name": "Minimum Absolute Difference",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting"
+      ],
+      "path": "easy/minimum-absolute-difference/solution.py",
+      "date_solved": "2026-01-26"
+    },
+    {
       "slug": "construct-the-minimum-bitwise-array-i",
       "name": "Construct the Minimum Bitwise Array I",
       "difficulty": "Easy",
