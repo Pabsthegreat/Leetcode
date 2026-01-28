@@ -38,6 +38,19 @@
       "date_solved": "2026-01-28"
     },
     {
+      "slug": "symmetric-tree",
+      "name": "Symmetric Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/symmetric-tree/solution.py",
+      "date_solved": "2026-01-28"
+    },
+    {
       "slug": "minimum-absolute-difference",
       "name": "Minimum Absolute Difference",
       "difficulty": "Easy",
