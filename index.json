@@ -13,6 +13,18 @@
       "date_solved": "2026-01-28"
     },
     {
+      "slug": "valid-sudoku",
+      "name": "Valid Sudoku",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Matrix"
+      ],
+      "path": "medium/valid-sudoku/solution.py",
+      "date_solved": "2026-01-28"
+    },
+    {
       "slug": "minimum-absolute-difference",
       "name": "Minimum Absolute Difference",
       "difficulty": "Easy",
