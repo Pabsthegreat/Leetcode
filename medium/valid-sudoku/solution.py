@@ -1,7 +1,7 @@
 """
 [Description]
 Valid Sudoku
-https://leetcode.com/problems/valid-sudoku/editorial/
+https://leetcode.com/problems/valid-sudoku/description/
 
 Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
 
