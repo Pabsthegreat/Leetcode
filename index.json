@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "letter-combinations-of-a-phone-number",
+      "name": "Letter Combinations of a Phone Number",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Backtracking"
+      ],
+      "path": "medium/letter-combinations-of-a-phone-number/solution.py",
+      "date_solved": "2026-01-28"
+    },
+    {
       "slug": "spiral-matrix",
       "name": "Spiral Matrix",
       "difficulty": "Medium",
