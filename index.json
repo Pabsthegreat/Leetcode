@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "spiral-matrix",
+      "name": "Spiral Matrix",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "medium/spiral-matrix/solution.py",
+      "date_solved": "2026-01-28"
+    },
+    {
       "slug": "minimum-absolute-difference",
       "name": "Minimum Absolute Difference",
       "difficulty": "Easy",
