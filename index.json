@@ -25,6 +25,19 @@
       "date_solved": "2026-01-28"
     },
     {
+      "slug": "path-sum",
+      "name": "Path Sum",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/path-sum/solution.py",
+      "date_solved": "2026-01-28"
+    },
+    {
       "slug": "minimum-absolute-difference",
       "name": "Minimum Absolute Difference",
       "difficulty": "Easy",
