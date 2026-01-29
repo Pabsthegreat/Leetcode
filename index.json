@@ -132,6 +132,16 @@
       "date_solved": "2026-01-29"
     },
     {
+      "slug": "rising-temperature",
+      "name": "Rising Temperature",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/rising-temperature/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
       "slug": "strobogrammatic-number",
       "name": "Strobogrammatic Number",
       "difficulty": "Easy",
