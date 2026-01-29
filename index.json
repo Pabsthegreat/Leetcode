@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "slug": "simplify-path",
+      "name": "Simplify Path",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Stack"
+      ],
+      "path": "medium/simplify-path/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "binary-tree-inorder-traversal",
+      "name": "Binary Tree Inorder Traversal",
+      "difficulty": "Easy",
+      "topics": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/binary-tree-inorder-traversal/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "binary-tree-paths",
+      "name": "Binary Tree Paths",
+      "difficulty": "Easy",
+      "topics": [
+        "String",
+        "Backtracking",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/binary-tree-paths/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "combine-two-tables",
+      "name": "Combine Two Tables",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/combine-two-tables/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "customers-who-never-order",
+      "name": "Customers Who Never Order",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/customers-who-never-order/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
       "slug": "delete-duplicate-emails",
       "name": "Delete Duplicate Emails",
       "difficulty": "Easy",
@@ -8,6 +66,91 @@
         "Database"
       ],
       "path": "easy/delete-duplicate-emails/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "duplicate-emails",
+      "name": "Duplicate Emails",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/duplicate-emails/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "employees-earning-more-than-their-managers",
+      "name": "Employees Earning More Than Their Managers",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/employees-earning-more-than-their-managers/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "meeting-rooms",
+      "name": "Meeting Rooms",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting"
+      ],
+      "path": "easy/meeting-rooms/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "pascals-triangle",
+      "name": "Pascal's Triangle",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "easy/pascals-triangle/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "pascals-triangle-ii",
+      "name": "Pascal's Triangle II",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "easy/pascals-triangle-ii/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "remove-duplicates-from-sorted-list",
+      "name": "Remove Duplicates from Sorted List",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List"
+      ],
+      "path": "easy/remove-duplicates-from-sorted-list/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "strobogrammatic-number",
+      "name": "Strobogrammatic Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/strobogrammatic-number/solution.py",
+      "date_solved": "2026-01-29"
+    },
+    {
+      "slug": "valid-phone-numbers",
+      "name": "Valid Phone Numbers",
+      "difficulty": "Easy",
+      "topics": [
+        "Shell"
+      ],
+      "path": "easy/valid-phone-numbers/solution.txt",
       "date_solved": "2026-01-29"
     },
     {
