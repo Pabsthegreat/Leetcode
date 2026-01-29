@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "delete-duplicate-emails",
+      "name": "Delete Duplicate Emails",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/delete-duplicate-emails/solution.txt",
+      "date_solved": "2026-01-29"
+    },
+    {
       "slug": "letter-combinations-of-a-phone-number",
       "name": "Letter Combinations of a Phone Number",
       "difficulty": "Medium",
