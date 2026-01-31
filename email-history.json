@@ -5,6 +5,12 @@
       "name": "Destination City",
       "difficulty": "Easy",
       "sent_at": "2026-01-30T07:44:29.947Z"
+    },
+    {
+      "slug": "minimum-size-subarray-sum",
+      "name": "Minimum Size Subarray Sum",
+      "difficulty": "Medium",
+      "sent_at": "2026-01-31T07:35:49.185Z"
     }
   ]
 }
