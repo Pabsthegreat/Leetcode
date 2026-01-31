@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "sudoku-solver",
+      "name": "Sudoku Solver",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Backtracking",
+        "Matrix"
+      ],
+      "path": "hard/sudoku-solver/solution.py",
+      "date_solved": "2026-01-31"
+    },
+    {
       "slug": "simplify-path",
       "name": "Simplify Path",
       "difficulty": "Medium",
