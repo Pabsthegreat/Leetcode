@@ -17,6 +17,12 @@
       "name": "Find Unique Binary String",
       "difficulty": "Medium",
       "sent_at": "2026-02-01T07:40:59.521Z"
+    },
+    {
+      "slug": "construct-the-minimum-bitwise-array-i",
+      "name": "Construct the Minimum Bitwise Array I",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-02T07:54:38.765Z"
     }
   ]
 }
