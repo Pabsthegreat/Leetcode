@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "slug": "maximum-gap",
+      "name": "Maximum Gap",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Bucket Sort",
+        "Radix Sort"
+      ],
+      "path": "medium/maximum-gap/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "shortest-word-distance-ii",
+      "name": "Shortest Word Distance II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "String",
+        "Design"
+      ],
+      "path": "medium/shortest-word-distance-ii/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "binary-tree-postorder-traversal",
+      "name": "Binary Tree Postorder Traversal",
+      "difficulty": "Easy",
+      "topics": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/binary-tree-postorder-traversal/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "binary-tree-preorder-traversal",
+      "name": "Binary Tree Preorder Traversal",
+      "difficulty": "Easy",
+      "topics": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/binary-tree-preorder-traversal/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "missing-ranges",
+      "name": "Missing Ranges",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/missing-ranges/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "set-mismatch",
+      "name": "Set Mismatch",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation",
+        "Sorting"
+      ],
+      "path": "easy/set-mismatch/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
+      "slug": "shortest-word-distance",
+      "name": "Shortest Word Distance",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String"
+      ],
+      "path": "easy/shortest-word-distance/solution.py",
+      "date_solved": "2026-02-02"
+    },
+    {
       "slug": "sudoku-solver",
       "name": "Sudoku Solver",
       "difficulty": "Hard",
