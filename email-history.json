@@ -23,6 +23,12 @@
       "name": "Construct the Minimum Bitwise Array I",
       "difficulty": "Easy",
       "sent_at": "2026-02-02T07:54:38.765Z"
+    },
+    {
+      "slug": "merge-strings-alternately",
+      "name": "Merge Strings Alternately",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-03T07:48:28.569Z"
     }
   ]
 }
