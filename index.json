@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "exclusive-time-of-functions",
+      "name": "Exclusive Time of Functions",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Stack"
+      ],
+      "path": "medium/exclusive-time-of-functions/solution.txt",
+      "date_solved": "2026-02-04"
+    },
+    {
       "slug": "maximum-gap",
       "name": "Maximum Gap",
       "difficulty": "Medium",
