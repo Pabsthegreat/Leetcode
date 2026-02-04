@@ -29,6 +29,12 @@
       "name": "Merge Strings Alternately",
       "difficulty": "Easy",
       "sent_at": "2026-02-03T07:48:28.569Z"
+    },
+    {
+      "slug": "two-sum",
+      "name": "Two Sum",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-04T07:49:06.780Z"
     }
   ]
 }
