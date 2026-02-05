@@ -35,6 +35,12 @@
       "name": "Two Sum",
       "difficulty": "Easy",
       "sent_at": "2026-02-04T07:49:06.780Z"
+    },
+    {
+      "slug": "remove-element",
+      "name": "Remove Element",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-05T07:54:11.223Z"
     }
   ]
 }
