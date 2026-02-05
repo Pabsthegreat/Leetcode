@@ -25,6 +25,18 @@
       "date_solved": "2026-02-05"
     },
     {
+      "slug": "number-of-people-aware-of-a-secret",
+      "name": "Number of People Aware of a Secret",
+      "difficulty": "Medium",
+      "topics": [
+        "Dynamic Programming",
+        "Queue",
+        "Simulation"
+      ],
+      "path": "medium/number-of-people-aware-of-a-secret/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
       "slug": "add-digits",
       "name": "Add Digits",
       "difficulty": "Easy",
@@ -96,6 +108,17 @@
         "Simulation"
       ],
       "path": "easy/transformed-array/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "valid-word-abbreviation",
+      "name": "Valid Word Abbreviation",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/valid-word-abbreviation/solution.py",
       "date_solved": "2026-02-05"
     },
     {
