@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "slug": "build-an-array-with-stack-operations",
+      "name": "Build an Array With Stack Operations",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Stack",
+        "Simulation"
+      ],
+      "path": "medium/build-an-array-with-stack-operations/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "evaluate-reverse-polish-notation",
+      "name": "Evaluate Reverse Polish Notation",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Stack"
+      ],
+      "path": "medium/evaluate-reverse-polish-notation/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "add-digits",
+      "name": "Add Digits",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Simulation",
+        "Number Theory"
+      ],
+      "path": "easy/add-digits/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "name": "Find All Numbers Disappeared in an Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/find-all-numbers-disappeared-in-an-array/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "name": "How Many Numbers Are Smaller Than the Current Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Counting Sort"
+      ],
+      "path": "easy/how-many-numbers-are-smaller-than-the-current-number/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "missing-number",
+      "name": "Missing Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Binary Search",
+        "Bit Manipulation",
+        "Sorting"
+      ],
+      "path": "easy/missing-number/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
+      "slug": "palindrome-permutation",
+      "name": "Palindrome Permutation",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Bit Manipulation"
+      ],
+      "path": "easy/palindrome-permutation/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
       "slug": "exclusive-time-of-functions",
       "name": "Exclusive Time of Functions",
       "difficulty": "Medium",
