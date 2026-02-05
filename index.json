@@ -88,6 +88,17 @@
       "date_solved": "2026-02-05"
     },
     {
+      "slug": "transformed-array",
+      "name": "Transformed Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "path": "easy/transformed-array/solution.py",
+      "date_solved": "2026-02-05"
+    },
+    {
       "slug": "exclusive-time-of-functions",
       "name": "Exclusive Time of Functions",
       "difficulty": "Medium",
