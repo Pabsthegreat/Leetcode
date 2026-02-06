@@ -41,6 +41,12 @@
       "name": "Remove Element",
       "difficulty": "Easy",
       "sent_at": "2026-02-05T07:54:11.223Z"
+    },
+    {
+      "slug": "median-of-two-sorted-arrays",
+      "name": "Median of Two Sorted Arrays",
+      "difficulty": "Hard",
+      "sent_at": "2026-02-06T07:50:56.487Z"
     }
   ]
 }
