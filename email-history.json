@@ -53,6 +53,12 @@
       "name": "Largest Combination With Bitwise AND Greater Than Zero",
       "difficulty": "Medium",
       "sent_at": "2026-02-07T07:38:08.932Z"
+    },
+    {
+      "slug": "same-tree",
+      "name": "Same Tree",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-08T07:42:07.144Z"
     }
   ]
 }
