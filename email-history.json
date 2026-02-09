@@ -59,6 +59,12 @@
       "name": "Same Tree",
       "difficulty": "Easy",
       "sent_at": "2026-02-08T07:42:07.144Z"
+    },
+    {
+      "slug": "add-digits",
+      "name": "Add Digits",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-09T08:01:03.019Z"
     }
   ]
 }
