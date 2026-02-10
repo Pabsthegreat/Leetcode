@@ -65,6 +65,12 @@
       "name": "Add Digits",
       "difficulty": "Easy",
       "sent_at": "2026-02-09T08:01:03.019Z"
+    },
+    {
+      "slug": "maximum-subarray",
+      "name": "Maximum Subarray",
+      "difficulty": "Medium",
+      "sent_at": "2026-02-10T08:01:38.097Z"
     }
   ]
 }
