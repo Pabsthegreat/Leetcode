@@ -71,6 +71,12 @@
       "name": "Maximum Subarray",
       "difficulty": "Medium",
       "sent_at": "2026-02-10T08:01:38.097Z"
+    },
+    {
+      "slug": "symmetric-tree",
+      "name": "Symmetric Tree",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-11T07:58:30.512Z"
     }
   ]
 }
