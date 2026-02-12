@@ -77,6 +77,12 @@
       "name": "Symmetric Tree",
       "difficulty": "Easy",
       "sent_at": "2026-02-11T07:58:30.512Z"
+    },
+    {
+      "slug": "plus-one",
+      "name": "Plus One",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-12T07:56:32.062Z"
     }
   ]
 }
