@@ -83,6 +83,12 @@
       "name": "Plus One",
       "difficulty": "Easy",
       "sent_at": "2026-02-12T07:56:32.062Z"
+    },
+    {
+      "slug": "shuffle-the-array",
+      "name": "Shuffle the Array",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-13T07:54:37.457Z"
     }
   ]
 }
