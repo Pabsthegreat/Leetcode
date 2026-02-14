@@ -89,6 +89,12 @@
       "name": "Shuffle the Array",
       "difficulty": "Easy",
       "sent_at": "2026-02-13T07:54:37.457Z"
+    },
+    {
+      "slug": "valid-parentheses",
+      "name": "Valid Parentheses",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-14T07:39:39.425Z"
     }
   ]
 }
