@@ -119,6 +119,12 @@
       "name": "Kth Smallest Element in a BST",
       "difficulty": "Medium",
       "sent_at": "2026-02-18T07:55:56.879Z"
+    },
+    {
+      "slug": "valid-anagram",
+      "name": "Valid Anagram",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-19T07:54:17.544Z"
     }
   ]
 }
