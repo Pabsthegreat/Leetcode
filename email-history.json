@@ -131,6 +131,12 @@
       "name": "Container With Most Water",
       "difficulty": "Medium",
       "sent_at": "2026-02-20T07:51:52.725Z"
+    },
+    {
+      "slug": "minimize-maximum-pair-sum-in-array",
+      "name": "Minimize Maximum Pair Sum in Array",
+      "difficulty": "Medium",
+      "sent_at": "2026-02-21T07:38:41.556Z"
     }
   ]
 }
