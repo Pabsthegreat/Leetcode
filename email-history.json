@@ -137,6 +137,12 @@
       "name": "Minimize Maximum Pair Sum in Array",
       "difficulty": "Medium",
       "sent_at": "2026-02-21T07:38:41.556Z"
+    },
+    {
+      "slug": "minimum-absolute-difference-in-bst",
+      "name": "Minimum Absolute Difference in BST",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-22T07:40:10.091Z"
     }
   ]
 }
