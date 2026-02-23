@@ -143,6 +143,12 @@
       "name": "Minimum Absolute Difference in BST",
       "difficulty": "Easy",
       "sent_at": "2026-02-22T07:40:10.091Z"
+    },
+    {
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "name": "Find the Index of the First Occurrence in a String",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-23T07:59:20.779Z"
     }
   ]
 }
