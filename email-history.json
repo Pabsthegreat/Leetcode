@@ -149,6 +149,12 @@
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
       "sent_at": "2026-02-23T07:59:20.779Z"
+    },
+    {
+      "slug": "gas-station",
+      "name": "Gas Station",
+      "difficulty": "Medium",
+      "sent_at": "2026-02-24T07:56:06.202Z"
     }
   ]
 }
