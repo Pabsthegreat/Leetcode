@@ -167,6 +167,12 @@
       "name": "Group Anagrams",
       "difficulty": "Medium",
       "sent_at": "2026-02-26T07:55:39.450Z"
+    },
+    {
+      "slug": "find-words-that-can-be-formed-by-characters",
+      "name": "Find Words That Can Be Formed by Characters",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-27T07:50:26.800Z"
     }
   ]
 }
