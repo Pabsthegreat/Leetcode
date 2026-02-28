@@ -173,6 +173,12 @@
       "name": "Find Words That Can Be Formed by Characters",
       "difficulty": "Easy",
       "sent_at": "2026-02-27T07:50:26.800Z"
+    },
+    {
+      "slug": "longest-common-prefix",
+      "name": "Longest Common Prefix",
+      "difficulty": "Easy",
+      "sent_at": "2026-02-28T07:34:38.032Z"
     }
   ]
 }
