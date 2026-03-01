@@ -179,6 +179,12 @@
       "name": "Longest Common Prefix",
       "difficulty": "Easy",
       "sent_at": "2026-02-28T07:34:38.032Z"
+    },
+    {
+      "slug": "4sum",
+      "name": "4Sum",
+      "difficulty": "Medium",
+      "sent_at": "2026-03-01T07:36:59.614Z"
     }
   ]
 }
