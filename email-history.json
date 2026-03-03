@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "find-unique-binary-string",
-      "name": "Find Unique Binary String",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-01T07:40:59.521Z"
-    },
-    {
       "slug": "construct-the-minimum-bitwise-array-i",
       "name": "Construct the Minimum Bitwise Array I",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Same Tree",
       "difficulty": "Easy",
       "sent_at": "2026-03-02T07:52:40.874Z"
+    },
+    {
+      "slug": "employees-earning-more-than-their-managers",
+      "name": "Employees Earning More Than Their Managers",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-03T07:48:05.340Z"
     }
   ]
 }
