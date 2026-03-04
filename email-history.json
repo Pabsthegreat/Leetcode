@@ -179,6 +179,12 @@
       "name": "Employees Earning More Than Their Managers",
       "difficulty": "Easy",
       "sent_at": "2026-03-03T07:48:05.340Z"
+    },
+    {
+      "slug": "minimize-maximum-pair-sum-in-array",
+      "name": "Minimize Maximum Pair Sum in Array",
+      "difficulty": "Medium",
+      "sent_at": "2026-03-04T07:41:39.277Z"
     }
   ]
 }
