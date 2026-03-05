@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "construct-the-minimum-bitwise-array-i",
-      "name": "Construct the Minimum Bitwise Array I",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-02T07:54:38.765Z"
-    },
-    {
       "slug": "merge-strings-alternately",
       "name": "Merge Strings Alternately",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Minimize Maximum Pair Sum in Array",
       "difficulty": "Medium",
       "sent_at": "2026-03-04T07:41:39.277Z"
+    },
+    {
+      "slug": "rotate-list",
+      "name": "Rotate List",
+      "difficulty": "Medium",
+      "sent_at": "2026-03-05T07:47:49.858Z"
     }
   ]
 }
