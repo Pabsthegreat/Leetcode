@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "two-sum",
-      "name": "Two Sum",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-04T07:49:06.780Z"
-    },
-    {
       "slug": "remove-element",
       "name": "Remove Element",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Element Appearing More Than 25% In Sorted Array",
       "difficulty": "Easy",
       "sent_at": "2026-03-06T07:41:56.493Z"
+    },
+    {
+      "slug": "delete-characters-to-make-fancy-string",
+      "name": "Delete Characters to Make Fancy String",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-07T07:36:00.276Z"
     }
   ]
 }
