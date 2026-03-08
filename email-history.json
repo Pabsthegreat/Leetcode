@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "remove-element",
-      "name": "Remove Element",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-05T07:54:11.223Z"
-    },
-    {
       "slug": "median-of-two-sorted-arrays",
       "name": "Median of Two Sorted Arrays",
       "difficulty": "Hard",
@@ -185,6 +179,12 @@
       "name": "Delete Characters to Make Fancy String",
       "difficulty": "Easy",
       "sent_at": "2026-03-07T07:36:00.276Z"
+    },
+    {
+      "slug": "max-points-on-a-line",
+      "name": "Max Points on a Line",
+      "difficulty": "Hard",
+      "sent_at": "2026-03-08T07:37:05.327Z"
     }
   ]
 }
