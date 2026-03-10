@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "same-tree",
-      "name": "Same Tree",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-08T07:42:07.144Z"
-    },
-    {
       "slug": "add-digits",
       "name": "Add Digits",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Remove Duplicates from Sorted Array II",
       "difficulty": "Medium",
       "sent_at": "2026-03-09T07:54:39.620Z"
+    },
+    {
+      "slug": "delete-duplicate-emails",
+      "name": "Delete Duplicate Emails",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-10T07:46:32.656Z"
     }
   ]
 }
