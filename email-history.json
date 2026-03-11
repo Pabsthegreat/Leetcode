@@ -179,6 +179,12 @@
       "name": "Delete Duplicate Emails",
       "difficulty": "Easy",
       "sent_at": "2026-03-10T07:46:32.656Z"
+    },
+    {
+      "slug": "maximum-score-after-splitting-a-string",
+      "name": "Maximum Score After Splitting a String",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-11T07:48:42.980Z"
     }
   ]
 }
