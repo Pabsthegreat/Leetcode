@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "add-digits",
-      "name": "Add Digits",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-09T08:01:03.019Z"
-    },
-    {
       "slug": "maximum-subarray",
       "name": "Maximum Subarray",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Maximum Score After Splitting a String",
       "difficulty": "Easy",
       "sent_at": "2026-03-11T07:48:42.980Z"
+    },
+    {
+      "slug": "reverse-integer",
+      "name": "Reverse Integer",
+      "difficulty": "Medium",
+      "sent_at": "2026-03-12T07:50:38.092Z"
     }
   ]
 }
