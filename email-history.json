@@ -179,6 +179,12 @@
       "name": "Element Appearing More Than 25% In Sorted Array",
       "difficulty": "Easy",
       "sent_at": "2026-03-17T07:58:45.672Z"
+    },
+    {
+      "slug": "rotate-list",
+      "name": "Rotate List",
+      "difficulty": "Medium",
+      "sent_at": "2026-03-18T07:57:48.596Z"
     }
   ]
 }
