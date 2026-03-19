@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "combination-sum",
-      "name": "Combination Sum",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-16T07:58:06.660Z"
-    },
-    {
       "slug": "shortest-word-distance-ii",
       "name": "Shortest Word Distance II",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Rotate List",
       "difficulty": "Medium",
       "sent_at": "2026-03-18T07:57:48.596Z"
+    },
+    {
+      "slug": "rising-temperature",
+      "name": "Rising Temperature",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-19T07:52:29.088Z"
     }
   ]
 }
