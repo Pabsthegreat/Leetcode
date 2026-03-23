@@ -1,18 +1,6 @@
 {
   "sent": [
     {
-      "slug": "container-with-most-water",
-      "name": "Container With Most Water",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-20T07:51:52.725Z"
-    },
-    {
-      "slug": "minimize-maximum-pair-sum-in-array",
-      "name": "Minimize Maximum Pair Sum in Array",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-21T07:38:41.556Z"
-    },
-    {
       "slug": "minimum-absolute-difference-in-bst",
       "name": "Minimum Absolute Difference in BST",
       "difficulty": "Easy",
@@ -185,6 +173,12 @@
       "name": "Binary Tree Inorder Traversal",
       "difficulty": "Easy",
       "sent_at": "2026-03-22T07:42:13.835Z"
+    },
+    {
+      "slug": "fizz-buzz",
+      "name": "Fizz Buzz",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-23T08:05:46.527Z"
     }
   ]
 }
