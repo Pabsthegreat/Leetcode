@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "minimum-absolute-difference-in-bst",
-      "name": "Minimum Absolute Difference in BST",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-22T07:40:10.091Z"
-    },
-    {
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Fizz Buzz",
       "difficulty": "Easy",
       "sent_at": "2026-03-23T08:05:46.527Z"
+    },
+    {
+      "slug": "maximum-odd-binary-number",
+      "name": "Maximum Odd Binary Number",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-24T07:58:47.011Z"
     }
   ]
 }
