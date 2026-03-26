@@ -1,18 +1,6 @@
 {
   "sent": [
     {
-      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-      "name": "Find the Index of the First Occurrence in a String",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-23T07:59:20.779Z"
-    },
-    {
-      "slug": "gas-station",
-      "name": "Gas Station",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-24T07:56:06.202Z"
-    },
-    {
       "slug": "linked-list-components",
       "name": "Linked List Components",
       "difficulty": "Medium",
@@ -185,6 +173,12 @@
       "name": "Shuffle the Array",
       "difficulty": "Easy",
       "sent_at": "2026-03-25T07:58:14.241Z"
+    },
+    {
+      "slug": "reverse-bits",
+      "name": "Reverse Bits",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-26T08:06:02.597Z"
     }
   ]
 }
