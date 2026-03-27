@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "linked-list-components",
-      "name": "Linked List Components",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-25T07:57:46.765Z"
-    },
-    {
       "slug": "group-anagrams",
       "name": "Group Anagrams",
       "difficulty": "Medium",
@@ -179,6 +173,12 @@
       "name": "Reverse Bits",
       "difficulty": "Easy",
       "sent_at": "2026-03-26T08:06:02.597Z"
+    },
+    {
+      "slug": "roman-to-integer",
+      "name": "Roman to Integer",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-27T08:02:47.452Z"
     }
   ]
 }
