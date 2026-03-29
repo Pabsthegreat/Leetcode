@@ -1,18 +1,6 @@
 {
   "sent": [
     {
-      "slug": "group-anagrams",
-      "name": "Group Anagrams",
-      "difficulty": "Medium",
-      "sent_at": "2026-02-26T07:55:39.450Z"
-    },
-    {
-      "slug": "find-words-that-can-be-formed-by-characters",
-      "name": "Find Words That Can Be Formed by Characters",
-      "difficulty": "Easy",
-      "sent_at": "2026-02-27T07:50:26.800Z"
-    },
-    {
       "slug": "longest-common-prefix",
       "name": "Longest Common Prefix",
       "difficulty": "Easy",
@@ -185,6 +173,12 @@
       "name": "Merge Two Sorted Lists",
       "difficulty": "Easy",
       "sent_at": "2026-03-28T07:49:24.851Z"
+    },
+    {
+      "slug": "plus-one",
+      "name": "Plus One",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-29T07:55:11.960Z"
     }
   ]
 }
