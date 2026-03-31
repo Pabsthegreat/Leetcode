@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "4sum",
-      "name": "4Sum",
-      "difficulty": "Medium",
-      "sent_at": "2026-03-01T07:36:59.614Z"
-    },
-    {
       "slug": "same-tree",
       "name": "Same Tree",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Validate Binary Search Tree",
       "difficulty": "Medium",
       "sent_at": "2026-03-30T08:25:45.319Z"
+    },
+    {
+      "slug": "best-time-to-buy-and-sell-stock",
+      "name": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "sent_at": "2026-03-31T08:12:40.913Z"
     }
   ]
 }
