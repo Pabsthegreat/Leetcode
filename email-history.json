@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "same-tree",
-      "name": "Same Tree",
-      "difficulty": "Easy",
-      "sent_at": "2026-03-02T07:52:40.874Z"
-    },
-    {
       "slug": "employees-earning-more-than-their-managers",
       "name": "Employees Earning More Than Their Managers",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Best Time to Buy and Sell Stock",
       "difficulty": "Easy",
       "sent_at": "2026-03-31T08:12:40.913Z"
+    },
+    {
+      "slug": "employees-earning-more-than-their-managers",
+      "name": "Employees Earning More Than Their Managers",
+      "difficulty": "Easy",
+      "sent_at": "2026-04-01T08:19:09.269Z"
     }
   ]
 }
