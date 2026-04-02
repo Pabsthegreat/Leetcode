@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "employees-earning-more-than-their-managers",
-      "name": "Employees Earning More Than Their Managers",
-      "difficulty": "Easy",
-      "sent_at": "2026-03-03T07:48:05.340Z"
-    },
-    {
       "slug": "minimize-maximum-pair-sum-in-array",
       "name": "Minimize Maximum Pair Sum in Array",
       "difficulty": "Medium",
@@ -179,6 +173,12 @@
       "name": "Employees Earning More Than Their Managers",
       "difficulty": "Easy",
       "sent_at": "2026-04-01T08:19:09.269Z"
+    },
+    {
+      "slug": "string-matching-in-an-array",
+      "name": "String Matching in an Array",
+      "difficulty": "Easy",
+      "sent_at": "2026-04-02T08:11:44.066Z"
     }
   ]
 }
