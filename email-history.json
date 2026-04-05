@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "element-appearing-more-than-25-in-sorted-array",
-      "name": "Element Appearing More Than 25% In Sorted Array",
-      "difficulty": "Easy",
-      "sent_at": "2026-03-06T07:41:56.493Z"
-    },
-    {
       "slug": "delete-characters-to-make-fancy-string",
       "name": "Delete Characters to Make Fancy String",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Uncommon Words from Two Sentences",
       "difficulty": "Easy",
       "sent_at": "2026-04-04T07:52:35.212Z"
+    },
+    {
+      "slug": "group-anagrams",
+      "name": "Group Anagrams",
+      "difficulty": "Medium",
+      "sent_at": "2026-04-05T07:58:24.055Z"
     }
   ]
 }
