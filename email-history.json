@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "max-points-on-a-line",
-      "name": "Max Points on a Line",
-      "difficulty": "Hard",
-      "sent_at": "2026-03-08T07:37:05.327Z"
-    },
-    {
       "slug": "remove-duplicates-from-sorted-array-ii",
       "name": "Remove Duplicates from Sorted Array II",
       "difficulty": "Medium",
@@ -179,6 +173,12 @@
       "name": "Minimum Number of Changes to Make Binary String Beautiful",
       "difficulty": "Medium",
       "sent_at": "2026-04-06T08:25:49.719Z"
+    },
+    {
+      "slug": "rotate-string",
+      "name": "Rotate String",
+      "difficulty": "Easy",
+      "sent_at": "2026-04-07T08:17:06.101Z"
     }
   ]
 }
