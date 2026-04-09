@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "delete-duplicate-emails",
-      "name": "Delete Duplicate Emails",
-      "difficulty": "Easy",
-      "sent_at": "2026-03-10T07:46:32.656Z"
-    },
-    {
       "slug": "maximum-score-after-splitting-a-string",
       "name": "Maximum Score After Splitting a String",
       "difficulty": "Easy",
@@ -179,6 +173,12 @@
       "name": "Maximum XOR for Each Query",
       "difficulty": "Medium",
       "sent_at": "2026-04-08T08:15:52.027Z"
+    },
+    {
+      "slug": "fizz-buzz",
+      "name": "Fizz Buzz",
+      "difficulty": "Easy",
+      "sent_at": "2026-04-09T08:23:04.571Z"
     }
   ]
 }
