@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "maximum-score-after-splitting-a-string",
-      "name": "Maximum Score After Splitting a String",
-      "difficulty": "Easy",
-      "sent_at": "2026-03-11T07:48:42.980Z"
-    },
-    {
       "slug": "reverse-integer",
       "name": "Reverse Integer",
       "difficulty": "Medium",
@@ -179,6 +173,12 @@
       "name": "Fizz Buzz",
       "difficulty": "Easy",
       "sent_at": "2026-04-09T08:23:04.571Z"
+    },
+    {
+      "slug": "sudoku-solver",
+      "name": "Sudoku Solver",
+      "difficulty": "Hard",
+      "sent_at": "2026-04-10T08:24:49.406Z"
     }
   ]
 }
