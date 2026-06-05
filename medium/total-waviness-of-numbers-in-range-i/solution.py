@@ -68,14 +68,8 @@ Constraints:
 """
 
 // [Solution]
-class Solution(object):
-    def totalWaviness(self, num1, num2):
-        """
-        :type num1: int
-        :type num2: int
-        :rtype: int
-        """
-            
+class Solution:
+    def totalWaviness(self, num1: int, num2: int) -> int:
         wav = 0
         for i in range(num1,num2+1):
             num = str(i)
@@ -83,5 +77,5 @@ class Solution(object):
                 if num[j-1] < num[j] > num[j+1]:
                     wav+=1
                 elif num[j-1] > num[j] < num[j+1]:
-                    wav += 1
+                    wav+=1
         return wav
