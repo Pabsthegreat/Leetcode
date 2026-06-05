@@ -1,6 +1,751 @@
 {
   "items": [
     {
+      "slug": "basic-calculator",
+      "name": "Basic Calculator",
+      "difficulty": "Hard",
+      "topics": [
+        "Math",
+        "String",
+        "Stack",
+        "Recursion"
+      ],
+      "path": "hard/basic-calculator/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "total-waviness-of-numbers-in-range-ii",
+      "name": "Total Waviness of Numbers in Range II",
+      "difficulty": "Hard",
+      "topics": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "path": "hard/total-waviness-of-numbers-in-range-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "trapping-rain-water",
+      "name": "Trapping Rain Water",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Dynamic Programming",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "path": "hard/trapping-rain-water/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "3sum-closest",
+      "name": "3Sum Closest",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "path": "medium/3sum-closest/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "basic-calculator-ii",
+      "name": "Basic Calculator II",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "String",
+        "Stack"
+      ],
+      "path": "medium/basic-calculator-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "binary-tree-level-order-traversal",
+      "name": "Binary Tree Level Order Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/binary-tree-level-order-traversal/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "binary-tree-vertical-order-traversal",
+      "name": "Binary Tree Vertical Order Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Sorting",
+        "Binary Tree"
+      ],
+      "path": "medium/binary-tree-vertical-order-traversal/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "name": "Binary Tree Zigzag Level Order Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/binary-tree-zigzag-level-order-traversal/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "clone-graph",
+      "name": "Clone Graph",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph Theory"
+      ],
+      "path": "medium/clone-graph/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "count-covered-buildings",
+      "name": "Count Covered Buildings",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "path": "medium/count-covered-buildings/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "count-the-number-of-special-characters-ii",
+      "name": "Count the Number of Special Characters II",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String"
+      ],
+      "path": "medium/count-the-number-of-special-characters-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "custom-sort-string",
+      "name": "Custom Sort String",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "path": "medium/custom-sort-string/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "delete-and-earn",
+      "name": "Delete and Earn",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Dynamic Programming"
+      ],
+      "path": "medium/delete-and-earn/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "destroying-asteroids",
+      "name": "Destroying Asteroids",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "medium/destroying-asteroids/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "earliest-finish-time-for-land-and-water-rides-ii",
+      "name": "Earliest Finish Time for Land and Water Rides II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "medium/earliest-finish-time-for-land-and-water-rides-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "name": "Find First and Last Position of Element in Sorted Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/find-first-and-last-position-of-element-in-sorted-array/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "find-k-length-substrings-with-no-repeated-characters",
+      "name": "Find K-Length Substrings With No Repeated Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/find-k-length-substrings-with-no-repeated-characters/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "first-element-with-unique-frequency",
+      "name": "First Element with Unique Frequency",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Counting"
+      ],
+      "path": "medium/first-element-with-unique-frequency/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "generate-parentheses",
+      "name": "Generate Parentheses",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming",
+        "Backtracking"
+      ],
+      "path": "medium/generate-parentheses/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "implement-trie-ii-prefix-tree",
+      "name": "Implement Trie II (Prefix Tree)",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Design",
+        "Trie"
+      ],
+      "path": "medium/implement-trie-ii-prefix-tree/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "implement-trie-prefix-tree",
+      "name": "Implement Trie (Prefix Tree)",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Design",
+        "Trie"
+      ],
+      "path": "medium/implement-trie-prefix-tree/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "increasing-triplet-subsequence",
+      "name": "Increasing Triplet Subsequence",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "medium/increasing-triplet-subsequence/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "integer-to-roman",
+      "name": "Integer to Roman",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Math",
+        "String"
+      ],
+      "path": "medium/integer-to-roman/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "longest-increasing-subsequence",
+      "name": "Longest Increasing Subsequence",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Dynamic Programming"
+      ],
+      "path": "medium/longest-increasing-subsequence/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "longest-palindromic-substring",
+      "name": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/longest-palindromic-substring/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "longest-substring-with-at-most-k-distinct-characters",
+      "name": "Longest Substring with At Most K Distinct Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/longest-substring-with-at-most-k-distinct-characters/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "longest-substring-with-at-most-two-distinct-characters",
+      "name": "Longest Substring with At Most Two Distinct Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/longest-substring-with-at-most-two-distinct-characters/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "lru-cache",
+      "name": "LRU Cache",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Linked List",
+        "Design",
+        "Doubly-Linked List"
+      ],
+      "path": "medium/lru-cache/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "max-consecutive-ones-ii",
+      "name": "Max Consecutive Ones II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Sliding Window"
+      ],
+      "path": "medium/max-consecutive-ones-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "maximum-distance-in-arrays",
+      "name": "Maximum Distance in Arrays",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "medium/maximum-distance-in-arrays/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "maximum-number-of-items-from-sale-i",
+      "name": "Maximum Number of Items From Sale I",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "path": "medium/maximum-number-of-items-from-sale-i/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "minimum-path-sum",
+      "name": "Minimum Path Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "path": "medium/minimum-path-sum/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "one-edit-distance",
+      "name": "One Edit Distance",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "medium/one-edit-distance/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "palindromic-substrings",
+      "name": "Palindromic Substrings",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/palindromic-substrings/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "pour-water",
+      "name": "Pour Water",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Simulation"
+      ],
+      "path": "medium/pour-water/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "remove-nth-node-from-end-of-list",
+      "name": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/remove-nth-node-from-end-of-list/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "reverse-words-in-a-string-ii",
+      "name": "Reverse Words in a String II",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "medium/reverse-words-in-a-string-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "search-in-rotated-sorted-array",
+      "name": "Search in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/search-in-rotated-sorted-array/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "solving-questions-with-brainpower",
+      "name": "Solving Questions With Brainpower",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "medium/solving-questions-with-brainpower/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "sort-colors",
+      "name": "Sort Colors",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "path": "medium/sort-colors/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "swap-nodes-in-pairs",
+      "name": "Swap Nodes in Pairs",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "path": "medium/swap-nodes-in-pairs/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "total-waviness-of-numbers-in-range-i",
+      "name": "Total Waviness of Numbers in Range I",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Enumeration"
+      ],
+      "path": "medium/total-waviness-of-numbers-in-range-i/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "triangle",
+      "name": "Triangle",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "medium/triangle/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "unique-paths",
+      "name": "Unique Paths",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Combinatorics"
+      ],
+      "path": "medium/unique-paths/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "unique-paths-ii",
+      "name": "Unique Paths II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "path": "medium/unique-paths-ii/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "wiggle-sort",
+      "name": "Wiggle Sort",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "medium/wiggle-sort/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "word-break",
+      "name": "Word Break",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Dynamic Programming",
+        "Trie",
+        "Memoization"
+      ],
+      "path": "medium/word-break/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "balanced-binary-tree",
+      "name": "Balanced Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/balanced-binary-tree/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "check-if-two-chessboard-squares-have-the-same-color",
+      "name": "Check if Two Chessboard Squares Have the Same Color",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "String"
+      ],
+      "path": "easy/check-if-two-chessboard-squares-have-the-same-color/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "confusing-number",
+      "name": "Confusing Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/confusing-number/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "count-binary-substrings",
+      "name": "Count Binary Substrings",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/count-binary-substrings/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "name": "Count Prefix and Suffix Pairs I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String",
+        "Trie",
+        "Rolling Hash",
+        "String Matching",
+        "Hash Function"
+      ],
+      "path": "easy/count-prefix-and-suffix-pairs-i/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "digit-frequency-score",
+      "name": "Digit Frequency Score",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Math"
+      ],
+      "path": "easy/digit-frequency-score/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "earliest-finish-time-for-land-and-water-rides-i",
+      "name": "Earliest Finish Time for Land and Water Rides I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "easy/earliest-finish-time-for-land-and-water-rides-i/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "fibonacci-number",
+      "name": "Fibonacci Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Recursion",
+        "Memoization"
+      ],
+      "path": "easy/fibonacci-number/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "longest-continuous-increasing-subsequence",
+      "name": "Longest Continuous Increasing Subsequence",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/longest-continuous-increasing-subsequence/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "min-cost-climbing-stairs",
+      "name": "Min Cost Climbing Stairs",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "easy/min-cost-climbing-stairs/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "minimum-cost-of-buying-candies-with-discount",
+      "name": "Minimum Cost of Buying Candies With Discount",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "easy/minimum-cost-of-buying-candies-with-discount/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "most-common-word",
+      "name": "Most Common Word",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "path": "easy/most-common-word/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "n-th-tribonacci-number",
+      "name": "N-th Tribonacci Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Memoization"
+      ],
+      "path": "easy/n-th-tribonacci-number/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "special-positions-in-a-binary-matrix",
+      "name": "Special Positions in a Binary Matrix",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix"
+      ],
+      "path": "easy/special-positions-in-a-binary-matrix/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
+      "slug": "toggle-light-bulbs",
+      "name": "Toggle Light Bulbs",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Simulation"
+      ],
+      "path": "easy/toggle-light-bulbs/solution.py",
+      "date_solved": "2026-06-05"
+    },
+    {
       "slug": "build-an-array-with-stack-operations",
       "name": "Build an Array With Stack Operations",
       "difficulty": "Medium",
