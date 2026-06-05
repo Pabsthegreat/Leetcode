@@ -49,7 +49,7 @@ Constraints:
 
 [Metadata]
 - Difficulty: Easy
-- Topics: 
+- Topics: Array, Hash Table, Sorting, Simulation
 - Slug: toggle-light-bulbs
 """
 
