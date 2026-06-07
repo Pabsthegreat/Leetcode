@@ -11,6 +11,12 @@
       "name": "Strobogrammatic Number",
       "difficulty": "Easy",
       "sent_at": "2026-06-06T09:27:39.393Z"
+    },
+    {
+      "slug": "delete-nodes-from-linked-list-present-in-array",
+      "name": "Delete Nodes From Linked List Present in Array",
+      "difficulty": "Medium",
+      "sent_at": "2026-06-07T10:06:40.875Z"
     }
   ]
 }
