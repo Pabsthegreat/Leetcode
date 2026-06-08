@@ -17,6 +17,12 @@
       "name": "Delete Nodes From Linked List Present in Array",
       "difficulty": "Medium",
       "sent_at": "2026-06-07T10:06:40.875Z"
+    },
+    {
+      "slug": "max-points-on-a-line",
+      "name": "Max Points on a Line",
+      "difficulty": "Hard",
+      "sent_at": "2026-06-08T11:59:58.452Z"
     }
   ]
 }
