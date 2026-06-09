@@ -23,6 +23,12 @@
       "name": "Max Points on a Line",
       "difficulty": "Hard",
       "sent_at": "2026-06-08T11:59:58.452Z"
+    },
+    {
+      "slug": "valid-phone-numbers",
+      "name": "Valid Phone Numbers",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-09T10:35:48.510Z"
     }
   ]
 }
