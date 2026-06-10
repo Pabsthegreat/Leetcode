@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "slug": "create-binary-tree-from-descriptions",
+      "name": "Create Binary Tree From Descriptions",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Tree",
+        "Binary Tree"
+      ],
+      "path": "medium/create-binary-tree-from-descriptions/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "maximum-total-subarray-value-i",
+      "name": "Maximum Total Subarray Value I",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "medium/maximum-total-subarray-value-i/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "maximum-total-value-of-covered-indices",
+      "name": "Maximum Total Value of Covered Indices",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/maximum-total-value-of-covered-indices/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "minimum-energy-to-maintain-brightness",
+      "name": "Minimum Energy to Maintain Brightness",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/minimum-energy-to-maintain-brightness/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "partition-array-according-to-given-pivot",
+      "name": "Partition Array According to Given Pivot",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Simulation"
+      ],
+      "path": "medium/partition-array-according-to-given-pivot/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "valid-binary-strings-with-cost-limit",
+      "name": "Valid Binary Strings With Cost Limit",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/valid-binary-strings-with-cost-limit/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "exactly-one-consecutive-set-bits-pair",
+      "name": "Exactly One Consecutive Set Bits Pair",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/exactly-one-consecutive-set-bits-pair/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "left-and-right-sum-differences",
+      "name": "Left and Right Sum Differences",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "path": "easy/left-and-right-sum-differences/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
+      "slug": "sum-of-compatible-numbers-in-range-i",
+      "name": "Sum of Compatible Numbers in Range I",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/sum-of-compatible-numbers-in-range-i/solution.py",
+      "date_solved": "2026-06-10"
+    },
+    {
       "slug": "basic-calculator",
       "name": "Basic Calculator",
       "difficulty": "Hard",
