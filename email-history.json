@@ -35,6 +35,12 @@
       "name": "Same Tree",
       "difficulty": "Easy",
       "sent_at": "2026-06-10T10:57:47.179Z"
+    },
+    {
+      "slug": "valid-word-abbreviation",
+      "name": "Valid Word Abbreviation",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-11T11:23:58.785Z"
     }
   ]
 }
