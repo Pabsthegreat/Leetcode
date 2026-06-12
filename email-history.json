@@ -41,6 +41,12 @@
       "name": "Valid Word Abbreviation",
       "difficulty": "Easy",
       "sent_at": "2026-06-11T11:23:58.785Z"
+    },
+    {
+      "slug": "merge-sorted-array",
+      "name": "Merge Sorted Array",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-12T11:03:19.446Z"
     }
   ]
 }
