@@ -47,6 +47,12 @@
       "name": "Merge Sorted Array",
       "difficulty": "Easy",
       "sent_at": "2026-06-12T11:03:19.446Z"
+    },
+    {
+      "slug": "most-common-word",
+      "name": "Most Common Word",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-13T09:57:30.215Z"
     }
   ]
 }
