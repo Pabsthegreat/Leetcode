@@ -53,6 +53,12 @@
       "name": "Most Common Word",
       "difficulty": "Easy",
       "sent_at": "2026-06-13T09:57:30.215Z"
+    },
+    {
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "name": "Find the Index of the First Occurrence in a String",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-14T10:26:39.035Z"
     }
   ]
 }
