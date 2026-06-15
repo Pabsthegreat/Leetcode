@@ -59,6 +59,12 @@
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
       "sent_at": "2026-06-14T10:26:39.035Z"
+    },
+    {
+      "slug": "max-consecutive-ones-ii",
+      "name": "Max Consecutive Ones II",
+      "difficulty": "Medium",
+      "sent_at": "2026-06-15T13:18:05.285Z"
     }
   ]
 }
