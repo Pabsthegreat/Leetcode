@@ -65,6 +65,12 @@
       "name": "Max Consecutive Ones II",
       "difficulty": "Medium",
       "sent_at": "2026-06-15T13:18:05.285Z"
+    },
+    {
+      "slug": "valid-sudoku",
+      "name": "Valid Sudoku",
+      "difficulty": "Medium",
+      "sent_at": "2026-06-16T12:13:10.538Z"
     }
   ]
 }
