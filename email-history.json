@@ -95,6 +95,12 @@
       "name": "4Sum",
       "difficulty": "Medium",
       "sent_at": "2026-06-20T10:10:02.568Z"
+    },
+    {
+      "slug": "longest-continuous-increasing-subsequence",
+      "name": "Longest Continuous Increasing Subsequence",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-21T10:32:13.848Z"
     }
   ]
 }
