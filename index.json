@@ -1,6 +1,170 @@
 {
   "items": [
     {
+      "slug": "maximum-total-subarray-value-ii",
+      "name": "Maximum Total Subarray Value II",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Segment Tree",
+        "Heap (Priority Queue)"
+      ],
+      "path": "hard/maximum-total-subarray-value-ii/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "process-string-with-special-operations-ii",
+      "name": "Process String with Special Operations II",
+      "difficulty": "Hard",
+      "topics": [
+        "String",
+        "Simulation"
+      ],
+      "path": "hard/process-string-with-special-operations-ii/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "substring-with-concatenation-of-all-words",
+      "name": "Substring with Concatenation of All Words",
+      "difficulty": "Hard",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "hard/substring-with-concatenation-of-all-words/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "text-justification",
+      "name": "Text Justification",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "String",
+        "Simulation"
+      ],
+      "path": "hard/text-justification/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "angle-between-hands-of-a-clock",
+      "name": "Angle Between Hands of a Clock",
+      "difficulty": "Medium",
+      "topics": [
+        "Math"
+      ],
+      "path": "medium/angle-between-hands-of-a-clock/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "delete-the-middle-node-of-a-linked-list",
+      "name": "Delete the Middle Node of a Linked List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/delete-the-middle-node-of-a-linked-list/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "frequency-balance-subarray",
+      "name": "Frequency Balance Subarray",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/frequency-balance-subarray/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "game-of-life",
+      "name": "Game of Life",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "medium/game-of-life/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "number-of-ways-to-assign-edge-weights-i",
+      "name": "Number of Ways to Assign Edge Weights I",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "Tree",
+        "Depth-First Search"
+      ],
+      "path": "medium/number-of-ways-to-assign-edge-weights-i/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "process-string-with-special-operations-i",
+      "name": "Process String with Special Operations I",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Simulation"
+      ],
+      "path": "medium/process-string-with-special-operations-i/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "set-matrix-zeroes",
+      "name": "Set Matrix Zeroes",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Matrix"
+      ],
+      "path": "medium/set-matrix-zeroes/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "name": "Two Sum II - Input Array Is Sorted",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search"
+      ],
+      "path": "medium/two-sum-ii-input-array-is-sorted/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "check-good-integer",
+      "name": "Check Good Integer",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/check-good-integer/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "create-grid-with-exactly-one-path",
+      "name": "Create Grid With Exactly One Path",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/create-grid-with-exactly-one-path/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
+      "slug": "maximum-number-of-balloons",
+      "name": "Maximum Number of Balloons",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "path": "easy/maximum-number-of-balloons/solution.py",
+      "date_solved": "2026-06-22"
+    },
+    {
       "slug": "create-binary-tree-from-descriptions",
       "name": "Create Binary Tree From Descriptions",
       "difficulty": "Medium",
