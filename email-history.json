@@ -107,6 +107,12 @@
       "name": "Reverse Integer",
       "difficulty": "Medium",
       "sent_at": "2026-06-22T12:51:28.228Z"
+    },
+    {
+      "slug": "n-th-tribonacci-number",
+      "name": "N-th Tribonacci Number",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-23T10:37:42.744Z"
     }
   ]
 }
