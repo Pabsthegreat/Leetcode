@@ -113,6 +113,12 @@
       "name": "N-th Tribonacci Number",
       "difficulty": "Easy",
       "sent_at": "2026-06-23T10:37:42.744Z"
+    },
+    {
+      "slug": "number-of-ways-to-assign-edge-weights-i",
+      "name": "Number of Ways to Assign Edge Weights I",
+      "difficulty": "Medium",
+      "sent_at": "2026-06-24T10:23:53.753Z"
     }
   ]
 }
