@@ -119,6 +119,12 @@
       "name": "Number of Ways to Assign Edge Weights I",
       "difficulty": "Medium",
       "sent_at": "2026-06-24T10:23:53.753Z"
+    },
+    {
+      "slug": "big-countries",
+      "name": "Big Countries",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-25T10:16:36.031Z"
     }
   ]
 }
