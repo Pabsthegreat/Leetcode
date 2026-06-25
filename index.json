@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Tree",
+        "Binary Tree"
+      ],
+      "path": "medium/construct-binary-tree-from-preorder-and-inorder-traversal/solution.py",
+      "date_solved": "2026-06-25"
+    },
+    {
       "slug": "maximum-total-subarray-value-ii",
       "name": "Maximum Total Subarray Value II",
       "difficulty": "Hard",
