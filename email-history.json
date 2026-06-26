@@ -125,6 +125,12 @@
       "name": "Big Countries",
       "difficulty": "Easy",
       "sent_at": "2026-06-25T10:16:36.031Z"
+    },
+    {
+      "slug": "reverse-bits",
+      "name": "Reverse Bits",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-26T10:24:18.656Z"
     }
   ]
 }
