@@ -131,6 +131,12 @@
       "name": "Reverse Bits",
       "difficulty": "Easy",
       "sent_at": "2026-06-26T10:24:18.656Z"
+    },
+    {
+      "slug": "subarray-sum-equals-k",
+      "name": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "sent_at": "2026-06-27T09:29:59.086Z"
     }
   ]
 }
