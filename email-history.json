@@ -149,6 +149,12 @@
       "name": "Solving Questions With Brainpower",
       "difficulty": "Medium",
       "sent_at": "2026-06-29T12:01:15.695Z"
+    },
+    {
+      "slug": "confusing-number",
+      "name": "Confusing Number",
+      "difficulty": "Easy",
+      "sent_at": "2026-06-30T10:32:54.481Z"
     }
   ]
 }
