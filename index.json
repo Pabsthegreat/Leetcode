@@ -1,6 +1,411 @@
 {
   "items": [
     {
+      "slug": "binary-tree-maximum-path-sum",
+      "name": "Binary Tree Maximum Path Sum",
+      "difficulty": "Hard",
+      "topics": [
+        "Dynamic Programming",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "hard/binary-tree-maximum-path-sum/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "minimum-window-substring",
+      "name": "Minimum Window Substring",
+      "difficulty": "Hard",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "hard/minimum-window-substring/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "reverse-nodes-in-k-group",
+      "name": "Reverse Nodes in k-Group",
+      "difficulty": "Hard",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "path": "hard/reverse-nodes-in-k-group/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "binary-search-tree-iterator",
+      "name": "Binary Search Tree Iterator",
+      "difficulty": "Medium",
+      "topics": [
+        "Stack",
+        "Tree",
+        "Design",
+        "Binary Search Tree",
+        "Binary Tree",
+        "Iterator"
+      ],
+      "path": "medium/binary-search-tree-iterator/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "binary-tree-right-side-view",
+      "name": "Binary Tree Right Side View",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/binary-tree-right-side-view/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "clone-binary-tree-with-random-pointer",
+      "name": "Clone Binary Tree With Random Pointer",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/clone-binary-tree-with-random-pointer/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "clone-n-ary-tree",
+      "name": "Clone N-ary Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search"
+      ],
+      "path": "medium/clone-n-ary-tree/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "name": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Tree",
+        "Binary Tree"
+      ],
+      "path": "medium/construct-binary-tree-from-inorder-and-postorder-traversal/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "copy-list-with-random-pointer",
+      "name": "Copy List with Random Pointer",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Linked List"
+      ],
+      "path": "medium/copy-list-with-random-pointer/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "count-subarrays-with-majority-element-i",
+      "name": "Count Subarrays With Majority Element I",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Segment Tree",
+        "Merge Sort",
+        "Counting",
+        "Prefix Sum"
+      ],
+      "path": "medium/count-subarrays-with-majority-element-i/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "course-schedule",
+      "name": "Course Schedule",
+      "difficulty": "Medium",
+      "topics": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph Theory",
+        "Topological Sort"
+      ],
+      "path": "medium/course-schedule/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "course-schedule-ii",
+      "name": "Course Schedule II",
+      "difficulty": "Medium",
+      "topics": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph Theory",
+        "Topological Sort"
+      ],
+      "path": "medium/course-schedule-ii/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "evaluate-division",
+      "name": "Evaluate Division",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "String",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Graph Theory",
+        "Shortest Path"
+      ],
+      "path": "medium/evaluate-division/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "factorial-trailing-zeroes",
+      "name": "Factorial Trailing Zeroes",
+      "difficulty": "Medium",
+      "topics": [
+        "Math"
+      ],
+      "path": "medium/factorial-trailing-zeroes/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "flatten-binary-tree-to-linked-list",
+      "name": "Flatten Binary Tree to Linked List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/flatten-binary-tree-to-linked-list/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "longest-consecutive-sequence",
+      "name": "Longest Consecutive Sequence",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Union-Find"
+      ],
+      "path": "medium/longest-consecutive-sequence/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "name": "Lowest Common Ancestor of a Binary Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/lowest-common-ancestor-of-a-binary-tree/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "min-stack",
+      "name": "Min Stack",
+      "difficulty": "Medium",
+      "topics": [
+        "Stack",
+        "Design"
+      ],
+      "path": "medium/min-stack/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "minimum-number-of-arrows-to-burst-balloons",
+      "name": "Minimum Number of Arrows to Burst Balloons",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "medium/minimum-number-of-arrows-to-burst-balloons/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "number-of-islands",
+      "name": "Number of Islands",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "path": "medium/number-of-islands/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "number-of-substrings-containing-all-three-characters",
+      "name": "Number of Substrings Containing All Three Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/number-of-substrings-containing-all-three-characters/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "partition-list",
+      "name": "Partition List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/partition-list/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "populating-next-right-pointers-in-each-node",
+      "name": "Populating Next Right Pointers in Each Node",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/populating-next-right-pointers-in-each-node/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "name": "Populating Next Right Pointers in Each Node II",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/populating-next-right-pointers-in-each-node-ii/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "powx-n",
+      "name": "Pow(x, n)",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "Recursion"
+      ],
+      "path": "medium/powx-n/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "name": "Remove Duplicates from Sorted List II",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/remove-duplicates-from-sorted-list-ii/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "reverse-linked-list-ii",
+      "name": "Reverse Linked List II",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List"
+      ],
+      "path": "medium/reverse-linked-list-ii/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "sum-root-to-leaf-numbers",
+      "name": "Sum Root to Leaf Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/sum-root-to-leaf-numbers/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "surrounded-regions",
+      "name": "Surrounded Regions",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "path": "medium/surrounded-regions/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "average-of-levels-in-binary-tree",
+      "name": "Average of Levels in Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/average-of-levels-in-binary-tree/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "count-complete-tree-nodes",
+      "name": "Count Complete Tree Nodes",
+      "difficulty": "Easy",
+      "topics": [
+        "Binary Search",
+        "Bit Manipulation",
+        "Tree",
+        "Binary Tree"
+      ],
+      "path": "easy/count-complete-tree-nodes/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "name": "Number of Strings That Appear as Substrings in Word",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String"
+      ],
+      "path": "easy/number-of-strings-that-appear-as-substrings-in-word/solution.py",
+      "date_solved": "2026-06-30"
+    },
+    {
       "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
       "name": "Construct Binary Tree from Preorder and Inorder Traversal",
       "difficulty": "Medium",
