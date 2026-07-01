@@ -155,6 +155,12 @@
       "name": "Confusing Number",
       "difficulty": "Easy",
       "sent_at": "2026-06-30T10:32:54.481Z"
+    },
+    {
+      "slug": "3sum-closest",
+      "name": "3Sum Closest",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-01T10:43:45.641Z"
     }
   ]
 }
