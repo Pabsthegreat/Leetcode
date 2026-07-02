@@ -161,6 +161,12 @@
       "name": "3Sum Closest",
       "difficulty": "Medium",
       "sent_at": "2026-07-01T10:43:45.641Z"
+    },
+    {
+      "slug": "count-the-number-of-special-characters-ii",
+      "name": "Count the Number of Special Characters II",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-02T10:11:32.551Z"
     }
   ]
 }
