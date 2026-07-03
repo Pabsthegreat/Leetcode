@@ -167,6 +167,12 @@
       "name": "Count the Number of Special Characters II",
       "difficulty": "Medium",
       "sent_at": "2026-07-02T10:11:32.551Z"
+    },
+    {
+      "slug": "ugly-number",
+      "name": "Ugly Number",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-03T10:06:41.626Z"
     }
   ]
 }
