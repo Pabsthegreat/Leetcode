@@ -173,6 +173,12 @@
       "name": "Ugly Number",
       "difficulty": "Easy",
       "sent_at": "2026-07-03T10:06:41.626Z"
+    },
+    {
+      "slug": "pascals-triangle",
+      "name": "Pascal's Triangle",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-04T09:24:52.507Z"
     }
   ]
 }
