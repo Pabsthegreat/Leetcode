@@ -179,6 +179,12 @@
       "name": "Pascal's Triangle",
       "difficulty": "Easy",
       "sent_at": "2026-07-04T09:24:52.507Z"
+    },
+    {
+      "slug": "sort-colors",
+      "name": "Sort Colors",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-05T09:43:36.988Z"
     }
   ]
 }
