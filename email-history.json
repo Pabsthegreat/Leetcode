@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "delete-nodes-from-linked-list-present-in-array",
-      "name": "Delete Nodes From Linked List Present in Array",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-07T10:06:40.875Z"
-    },
-    {
       "slug": "max-points-on-a-line",
       "name": "Max Points on a Line",
       "difficulty": "Hard",
@@ -179,6 +173,12 @@
       "name": "Number of Substrings Containing All Three Characters",
       "difficulty": "Medium",
       "sent_at": "2026-07-06T11:38:57.101Z"
+    },
+    {
+      "slug": "maximum-matching-of-players-with-trainers",
+      "name": "Maximum Matching of Players With Trainers",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-07T10:27:25.304Z"
     }
   ]
 }
