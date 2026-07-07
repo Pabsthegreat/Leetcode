@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "find-peak-element",
+      "name": "Find Peak Element",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/find-peak-element/solution.py",
+      "date_solved": "2026-07-07"
+    },
+    {
       "slug": "binary-tree-maximum-path-sum",
       "name": "Binary Tree Maximum Path Sum",
       "difficulty": "Hard",
