@@ -179,6 +179,12 @@
       "name": "Maximum Matching of Players With Trainers",
       "difficulty": "Medium",
       "sent_at": "2026-07-07T10:27:25.304Z"
+    },
+    {
+      "slug": "duplicate-emails",
+      "name": "Duplicate Emails",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-08T09:26:32.451Z"
     }
   ]
 }
