@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "valid-phone-numbers",
-      "name": "Valid Phone Numbers",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-09T10:35:48.510Z"
-    },
-    {
       "slug": "same-tree",
       "name": "Same Tree",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Minimum Path Sum",
       "difficulty": "Medium",
       "sent_at": "2026-07-09T10:26:33.330Z"
+    },
+    {
+      "slug": "custom-sort-string",
+      "name": "Custom Sort String",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-10T10:24:57.622Z"
     }
   ]
 }
