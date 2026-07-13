@@ -1,18 +1,6 @@
 {
   "sent": [
     {
-      "slug": "merge-sorted-array",
-      "name": "Merge Sorted Array",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-12T11:03:19.446Z"
-    },
-    {
-      "slug": "most-common-word",
-      "name": "Most Common Word",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-13T09:57:30.215Z"
-    },
-    {
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "name": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
@@ -185,6 +173,12 @@
       "name": "Clone Graph",
       "difficulty": "Medium",
       "sent_at": "2026-07-12T09:03:59.225Z"
+    },
+    {
+      "slug": "substring-with-concatenation-of-all-words",
+      "name": "Substring with Concatenation of All Words",
+      "difficulty": "Hard",
+      "sent_at": "2026-07-13T10:29:40.195Z"
     }
   ]
 }
