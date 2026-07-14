@@ -179,6 +179,12 @@
       "name": "Substring with Concatenation of All Words",
       "difficulty": "Hard",
       "sent_at": "2026-07-13T10:29:40.195Z"
+    },
+    {
+      "slug": "basic-calculator",
+      "name": "Basic Calculator",
+      "difficulty": "Hard",
+      "sent_at": "2026-07-14T09:06:03.935Z"
     }
   ]
 }
