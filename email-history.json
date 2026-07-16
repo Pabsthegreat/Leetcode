@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "max-consecutive-ones-ii",
-      "name": "Max Consecutive Ones II",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-15T13:18:05.285Z"
-    },
-    {
       "slug": "valid-sudoku",
       "name": "Valid Sudoku",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Minimum Window Substring",
       "difficulty": "Hard",
       "sent_at": "2026-07-15T09:10:19.330Z"
+    },
+    {
+      "slug": "partition-list",
+      "name": "Partition List",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-16T09:17:19.054Z"
     }
   ]
 }
