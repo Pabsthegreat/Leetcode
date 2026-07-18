@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "circular-sentence",
-      "name": "Circular Sentence",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-17T11:50:50.542Z"
-    },
-    {
       "slug": "number-of-1-bits",
       "name": "Number of 1 Bits",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Binary Tree Inorder Traversal",
       "difficulty": "Easy",
       "sent_at": "2026-07-17T09:11:15.925Z"
+    },
+    {
+      "slug": "sqrtx",
+      "name": "Sqrt(x)",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-18T08:49:49.244Z"
     }
   ]
 }
