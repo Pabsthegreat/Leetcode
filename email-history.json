@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "number-of-1-bits",
-      "name": "Number of 1 Bits",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-18T11:10:03.542Z"
-    },
-    {
       "slug": "remove-element",
       "name": "Remove Element",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Sqrt(x)",
       "difficulty": "Easy",
       "sent_at": "2026-07-18T08:49:49.244Z"
+    },
+    {
+      "slug": "missing-ranges",
+      "name": "Missing Ranges",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-19T09:05:34.041Z"
     }
   ]
 }
