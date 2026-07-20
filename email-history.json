@@ -1,18 +1,6 @@
 {
   "sent": [
     {
-      "slug": "remove-element",
-      "name": "Remove Element",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-19T11:25:51.198Z"
-    },
-    {
-      "slug": "4sum",
-      "name": "4Sum",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-20T10:10:02.568Z"
-    },
-    {
       "slug": "longest-continuous-increasing-subsequence",
       "name": "Longest Continuous Increasing Subsequence",
       "difficulty": "Easy",
@@ -185,6 +173,12 @@
       "name": "Missing Ranges",
       "difficulty": "Easy",
       "sent_at": "2026-07-19T09:05:34.041Z"
+    },
+    {
+      "slug": "minimum-energy-to-maintain-brightness",
+      "name": "Minimum Energy to Maintain Brightness",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-20T10:14:26.900Z"
     }
   ]
 }
