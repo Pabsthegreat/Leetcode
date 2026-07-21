@@ -179,6 +179,12 @@
       "name": "Minimum Energy to Maintain Brightness",
       "difficulty": "Medium",
       "sent_at": "2026-07-20T10:14:26.900Z"
+    },
+    {
+      "slug": "happy-number",
+      "name": "Happy Number",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-21T09:28:37.353Z"
     }
   ]
 }
