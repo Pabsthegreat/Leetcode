@@ -40,19 +40,6 @@ Follow up: Could you implement a solution that runs in O(n) time complexity and 
 """
 
 // [Solution]
-class Solution(object):
-    def increasingTriplet(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        f = float('inf')
-        s = f
-        for i in nums:
-            if i <= f:
-                f = i
-            elif  i<= s: #dont update second since it just remembers that there is a smaller value, the value dosent matter to second
-                s = i
-            else:
-                return True
-        return False
+class Solution:
+    def increasingTriplet(self, nums: List[int]) -> bool:
+        
