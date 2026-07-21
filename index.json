@@ -1,6 +1,433 @@
 {
   "items": [
     {
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "name": "Best Time to Buy and Sell Stock III",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "hard/best-time-to-buy-and-sell-stock-iii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "name": "Best Time to Buy and Sell Stock IV",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "hard/best-time-to-buy-and-sell-stock-iv/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "ipo",
+      "name": "IPO",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "path": "hard/ipo/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "merge-k-sorted-lists",
+      "name": "Merge k Sorted Lists",
+      "difficulty": "Hard",
+      "topics": [
+        "Linked List",
+        "Divide and Conquer",
+        "Heap (Priority Queue)",
+        "Merge Sort"
+      ],
+      "path": "hard/merge-k-sorted-lists/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "n-queens-ii",
+      "name": "N-Queens II",
+      "difficulty": "Hard",
+      "topics": [
+        "Backtracking"
+      ],
+      "path": "hard/n-queens-ii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "word-ladder",
+      "name": "Word Ladder",
+      "difficulty": "Hard",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Breadth-First Search"
+      ],
+      "path": "hard/word-ladder/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "word-search-ii",
+      "name": "Word Search II",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "String",
+        "Backtracking",
+        "Trie",
+        "Matrix"
+      ],
+      "path": "hard/word-search-ii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "bitwise-and-of-numbers-range",
+      "name": "Bitwise AND of Numbers Range",
+      "difficulty": "Medium",
+      "topics": [
+        "Bit Manipulation"
+      ],
+      "path": "medium/bitwise-and-of-numbers-range/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "coin-change",
+      "name": "Coin Change",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Breadth-First Search"
+      ],
+      "path": "medium/coin-change/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "combinations",
+      "name": "Combinations",
+      "difficulty": "Medium",
+      "topics": [
+        "Backtracking"
+      ],
+      "path": "medium/combinations/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "design-add-and-search-words-data-structure",
+      "name": "Design Add and Search Words Data Structure",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Depth-First Search",
+        "Design",
+        "Trie"
+      ],
+      "path": "medium/design-add-and-search-words-data-structure/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "edit-distance",
+      "name": "Edit Distance",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/edit-distance/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "find-k-pairs-with-smallest-sums",
+      "name": "Find K Pairs with Smallest Sums",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Heap (Priority Queue)"
+      ],
+      "path": "medium/find-k-pairs-with-smallest-sums/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "name": "Find Minimum in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/find-minimum-in-rotated-sorted-array/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "interleaving-string",
+      "name": "Interleaving String",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/interleaving-string/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "jump-game-ii",
+      "name": "Jump Game II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "path": "medium/jump-game-ii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "kth-largest-element-in-an-array",
+      "name": "Kth Largest Element in an Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Quickselect"
+      ],
+      "path": "medium/kth-largest-element-in-an-array/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "minimum-genetic-mutation",
+      "name": "Minimum Genetic Mutation",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Breadth-First Search"
+      ],
+      "path": "medium/minimum-genetic-mutation/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "permutations",
+      "name": "Permutations",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking"
+      ],
+      "path": "medium/permutations/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "permutations-ii",
+      "name": "Permutations II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking",
+        "Sorting"
+      ],
+      "path": "medium/permutations-ii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "search-a-2d-matrix",
+      "name": "Search a 2D Matrix",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Matrix"
+      ],
+      "path": "medium/search-a-2d-matrix/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "single-number-ii",
+      "name": "Single Number II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "path": "medium/single-number-ii/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "snakes-and-ladders",
+      "name": "Snakes and Ladders",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Breadth-First Search",
+        "Matrix"
+      ],
+      "path": "medium/snakes-and-ladders/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "sort-list",
+      "name": "Sort List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers",
+        "Divide and Conquer",
+        "Sorting",
+        "Merge Sort"
+      ],
+      "path": "medium/sort-list/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "unique-word-abbreviation",
+      "name": "Unique Word Abbreviation",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Design"
+      ],
+      "path": "medium/unique-word-abbreviation/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "word-search",
+      "name": "Word Search",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "String",
+        "Backtracking",
+        "Depth-First Search",
+        "Matrix"
+      ],
+      "path": "medium/word-search/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "article-views-i",
+      "name": "Article Views I",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/article-views-i/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "can-place-flowers",
+      "name": "Can Place Flowers",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "easy/can-place-flowers/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "name": "Convert Sorted Array to Binary Search Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Divide and Conquer",
+        "Tree",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "path": "easy/convert-sorted-array-to-binary-search-tree/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "find-customer-referee",
+      "name": "Find Customer Referee",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/find-customer-referee/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "greatest-common-divisor-of-strings",
+      "name": "Greatest Common Divisor of Strings",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "String"
+      ],
+      "path": "easy/greatest-common-divisor-of-strings/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "invalid-tweets",
+      "name": "Invalid Tweets",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/invalid-tweets/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "kids-with-the-greatest-number-of-candies",
+      "name": "Kids With the Greatest Number of Candies",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/kids-with-the-greatest-number-of-candies/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "product-sales-analysis-i",
+      "name": "Product Sales Analysis I",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/product-sales-analysis-i/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "recyclable-and-low-fat-products",
+      "name": "Recyclable and Low Fat Products",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/recyclable-and-low-fat-products/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "replace-employee-id-with-the-unique-identifier",
+      "name": "Replace Employee ID With The Unique Identifier",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/replace-employee-id-with-the-unique-identifier/solution.txt",
+      "date_solved": "2026-07-21"
+    },
+    {
+      "slug": "reverse-vowels-of-a-string",
+      "name": "Reverse Vowels of a String",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/reverse-vowels-of-a-string/solution.py",
+      "date_solved": "2026-07-21"
+    },
+    {
       "slug": "find-peak-element",
       "name": "Find Peak Element",
       "difficulty": "Medium",
