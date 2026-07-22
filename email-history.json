@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "longest-continuous-increasing-subsequence",
-      "name": "Longest Continuous Increasing Subsequence",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-21T10:32:13.848Z"
-    },
-    {
       "slug": "reverse-integer",
       "name": "Reverse Integer",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Happy Number",
       "difficulty": "Easy",
       "sent_at": "2026-07-21T09:28:37.353Z"
+    },
+    {
+      "slug": "delete-and-earn",
+      "name": "Delete and Earn",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-22T09:27:54.307Z"
     }
   ]
 }
