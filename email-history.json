@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "reverse-integer",
-      "name": "Reverse Integer",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-22T12:51:28.228Z"
-    },
-    {
       "slug": "n-th-tribonacci-number",
       "name": "N-th Tribonacci Number",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Delete and Earn",
       "difficulty": "Medium",
       "sent_at": "2026-07-22T09:27:54.307Z"
+    },
+    {
+      "slug": "exclusive-time-of-functions",
+      "name": "Exclusive Time of Functions",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-23T09:25:17.626Z"
     }
   ]
 }
