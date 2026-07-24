@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "n-th-tribonacci-number",
-      "name": "N-th Tribonacci Number",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-23T10:37:42.744Z"
-    },
-    {
       "slug": "number-of-ways-to-assign-edge-weights-i",
       "name": "Number of Ways to Assign Edge Weights I",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Exclusive Time of Functions",
       "difficulty": "Medium",
       "sent_at": "2026-07-23T09:25:17.626Z"
+    },
+    {
+      "slug": "combine-two-tables",
+      "name": "Combine Two Tables",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-24T09:22:42.028Z"
     }
   ]
 }
