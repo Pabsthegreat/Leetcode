@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "number-of-ways-to-assign-edge-weights-i",
-      "name": "Number of Ways to Assign Edge Weights I",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-24T10:23:53.753Z"
-    },
-    {
       "slug": "big-countries",
       "name": "Big Countries",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Combine Two Tables",
       "difficulty": "Easy",
       "sent_at": "2026-07-24T09:22:42.028Z"
+    },
+    {
+      "slug": "construct-the-minimum-bitwise-array-i",
+      "name": "Construct the Minimum Bitwise Array I",
+      "difficulty": "Easy",
+      "sent_at": "2026-07-25T09:02:00.112Z"
     }
   ]
 }
