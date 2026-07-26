@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "big-countries",
-      "name": "Big Countries",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-25T10:16:36.031Z"
-    },
-    {
       "slug": "reverse-bits",
       "name": "Reverse Bits",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Construct the Minimum Bitwise Array I",
       "difficulty": "Easy",
       "sent_at": "2026-07-25T09:02:00.112Z"
+    },
+    {
+      "slug": "palindromic-substrings",
+      "name": "Palindromic Substrings",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-26T09:14:21.026Z"
     }
   ]
 }
