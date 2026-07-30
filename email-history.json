@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "solving-questions-with-brainpower",
-      "name": "Solving Questions With Brainpower",
-      "difficulty": "Medium",
-      "sent_at": "2026-06-29T12:01:15.695Z"
-    },
-    {
       "slug": "confusing-number",
       "name": "Confusing Number",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Subarray Sum Equals K",
       "difficulty": "Medium",
       "sent_at": "2026-07-29T09:39:20.473Z"
+    },
+    {
+      "slug": "unique-word-abbreviation",
+      "name": "Unique Word Abbreviation",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-30T09:32:14.987Z"
     }
   ]
 }
