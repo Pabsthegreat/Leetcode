@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "confusing-number",
-      "name": "Confusing Number",
-      "difficulty": "Easy",
-      "sent_at": "2026-06-30T10:32:54.481Z"
-    },
-    {
       "slug": "3sum-closest",
       "name": "3Sum Closest",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Unique Word Abbreviation",
       "difficulty": "Medium",
       "sent_at": "2026-07-30T09:32:14.987Z"
+    },
+    {
+      "slug": "arithmetic-subarrays",
+      "name": "Arithmetic Subarrays",
+      "difficulty": "Medium",
+      "sent_at": "2026-07-31T09:46:24.762Z"
     }
   ]
 }
