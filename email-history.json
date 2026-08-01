@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "3sum-closest",
-      "name": "3Sum Closest",
-      "difficulty": "Medium",
-      "sent_at": "2026-07-01T10:43:45.641Z"
-    },
-    {
       "slug": "count-the-number-of-special-characters-ii",
       "name": "Count the Number of Special Characters II",
       "difficulty": "Medium",
@@ -185,6 +179,12 @@
       "name": "Arithmetic Subarrays",
       "difficulty": "Medium",
       "sent_at": "2026-07-31T09:46:24.762Z"
+    },
+    {
+      "slug": "check-if-two-string-arrays-are-equivalent",
+      "name": "Check If Two String Arrays are Equivalent",
+      "difficulty": "Easy",
+      "sent_at": "2026-08-01T09:07:26.210Z"
     }
   ]
 }
