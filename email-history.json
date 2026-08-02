@@ -1,12 +1,6 @@
 {
   "sent": [
     {
-      "slug": "count-the-number-of-special-characters-ii",
-      "name": "Count the Number of Special Characters II",
-      "difficulty": "Medium",
-      "sent_at": "2026-07-02T10:11:32.551Z"
-    },
-    {
       "slug": "ugly-number",
       "name": "Ugly Number",
       "difficulty": "Easy",
@@ -185,6 +179,12 @@
       "name": "Check If Two String Arrays are Equivalent",
       "difficulty": "Easy",
       "sent_at": "2026-08-01T09:07:26.210Z"
+    },
+    {
+      "slug": "ransom-note",
+      "name": "Ransom Note",
+      "difficulty": "Easy",
+      "sent_at": "2026-08-02T09:10:16.185Z"
     }
   ]
 }
