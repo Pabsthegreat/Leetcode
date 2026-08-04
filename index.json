@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "equal-row-and-column-pairs",
+      "name": "Equal Row and Column Pairs",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "medium/equal-row-and-column-pairs/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
       "slug": "best-time-to-buy-and-sell-stock-iii",
       "name": "Best Time to Buy and Sell Stock III",
       "difficulty": "Hard",
