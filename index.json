@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "slug": "department-top-three-salaries",
+      "name": "Department Top Three Salaries",
+      "difficulty": "Hard",
+      "topics": [
+        "Database"
+      ],
+      "path": "hard/department-top-three-salaries/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "asteroid-collision",
+      "name": "Asteroid Collision",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Stack",
+        "Simulation"
+      ],
+      "path": "medium/asteroid-collision/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "name": "Capacity To Ship Packages Within D Days",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/capacity-to-ship-packages-within-d-days/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "confirmation-rate",
+      "name": "Confirmation Rate",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/confirmation-rate/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "consecutive-numbers",
+      "name": "Consecutive Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/consecutive-numbers/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "count-salary-categories",
+      "name": "Count Salary Categories",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/count-salary-categories/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "customers-who-bought-all-products",
+      "name": "Customers Who Bought All Products",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/customers-who-bought-all-products/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "determine-if-two-strings-are-close",
+      "name": "Determine if Two Strings Are Close",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting",
+        "Counting"
+      ],
+      "path": "medium/determine-if-two-strings-are-close/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
       "slug": "equal-row-and-column-pairs",
       "name": "Equal Row and Column Pairs",
       "difficulty": "Medium",
@@ -11,6 +97,570 @@
         "Simulation"
       ],
       "path": "medium/equal-row-and-column-pairs/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "exchange-seats",
+      "name": "Exchange Seats",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/exchange-seats/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "friend-requests-ii-who-has-the-most-friends",
+      "name": "Friend Requests II: Who Has the Most Friends",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/friend-requests-ii-who-has-the-most-friends/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "game-play-analysis-iv",
+      "name": "Game Play Analysis IV",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/game-play-analysis-iv/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "immediate-food-delivery-ii",
+      "name": "Immediate Food Delivery II",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/immediate-food-delivery-ii/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "investments-in-2016",
+      "name": "Investments in 2016",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/investments-in-2016/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "koko-eating-bananas",
+      "name": "Koko Eating Bananas",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "path": "medium/koko-eating-bananas/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "last-person-to-fit-in-the-bus",
+      "name": "Last Person to Fit in the Bus",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/last-person-to-fit-in-the-bus/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "longest-subarray-of-1s-after-deleting-one-element",
+      "name": "Longest Subarray of 1's After Deleting One Element",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Sliding Window"
+      ],
+      "path": "medium/longest-subarray-of-1s-after-deleting-one-element/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "managers-with-at-least-5-direct-reports",
+      "name": "Managers with at Least 5 Direct Reports",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/managers-with-at-least-5-direct-reports/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "max-consecutive-ones-iii",
+      "name": "Max Consecutive Ones III",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "path": "medium/max-consecutive-ones-iii/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "max-number-of-k-sum-pairs",
+      "name": "Max Number of K-Sum Pairs",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "path": "medium/max-number-of-k-sum-pairs/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+      "name": "Maximum Number of Vowels in a Substring of Given Length",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/maximum-number-of-vowels-in-a-substring-of-given-length/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "monthly-transactions-i",
+      "name": "Monthly Transactions I",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/monthly-transactions-i/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "movie-rating",
+      "name": "Movie Rating",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/movie-rating/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "odd-even-linked-list",
+      "name": "Odd Even Linked List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List"
+      ],
+      "path": "medium/odd-even-linked-list/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "product-price-at-a-given-date",
+      "name": "Product Price at a Given Date",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/product-price-at-a-given-date/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "product-sales-analysis-iii",
+      "name": "Product Sales Analysis III",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/product-sales-analysis-iii/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "removing-stars-from-a-string",
+      "name": "Removing Stars From a String",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Stack",
+        "Simulation"
+      ],
+      "path": "medium/removing-stars-from-a-string/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "restaurant-growth",
+      "name": "Restaurant Growth",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/restaurant-growth/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "second-highest-salary",
+      "name": "Second Highest Salary",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/second-highest-salary/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "string-compression",
+      "name": "String Compression",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "medium/string-compression/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "successful-pairs-of-spells-and-potions",
+      "name": "Successful Pairs of Spells and Potions",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
+      ],
+      "path": "medium/successful-pairs-of-spells-and-potions/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "task-scheduler",
+      "name": "Task Scheduler",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Counting"
+      ],
+      "path": "medium/task-scheduler/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "top-k-frequent-elements",
+      "name": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting",
+        "Quickselect"
+      ],
+      "path": "medium/top-k-frequent-elements/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "average-selling-price",
+      "name": "Average Selling Price",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/average-selling-price/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "average-time-of-process-per-machine",
+      "name": "Average Time of Process per Machine",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/average-time-of-process-per-machine/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "biggest-single-number",
+      "name": "Biggest Single Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/biggest-single-number/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "classes-with-at-least-5-students",
+      "name": "Classes With at Least 5 Students",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/classes-with-at-least-5-students/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "customer-who-visited-but-did-not-make-any-transactions",
+      "name": "Customer Who Visited but Did Not Make Any Transactions",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/customer-who-visited-but-did-not-make-any-transactions/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "employee-bonus",
+      "name": "Employee Bonus",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/employee-bonus/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "employees-whose-manager-left-the-company",
+      "name": "Employees Whose Manager Left the Company",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/employees-whose-manager-left-the-company/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "find-followers-count",
+      "name": "Find Followers Count",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/find-followers-count/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "find-pivot-index",
+      "name": "Find Pivot Index",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "path": "easy/find-pivot-index/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "find-the-difference-of-two-arrays",
+      "name": "Find the Difference of Two Arrays",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/find-the-difference-of-two-arrays/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "find-the-highest-altitude",
+      "name": "Find the Highest Altitude",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "path": "easy/find-the-highest-altitude/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "find-users-with-valid-e-mails",
+      "name": "Find Users With Valid E-Mails",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/find-users-with-valid-e-mails/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "fix-names-in-a-table",
+      "name": "Fix Names in a Table",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/fix-names-in-a-table/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "group-sold-products-by-the-date",
+      "name": "Group Sold Products By The Date",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/group-sold-products-by-the-date/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "list-the-products-ordered-in-a-period",
+      "name": "List the Products Ordered in a Period",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/list-the-products-ordered-in-a-period/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "maximum-average-subarray-i",
+      "name": "Maximum Average Subarray I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sliding Window"
+      ],
+      "path": "easy/maximum-average-subarray-i/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "move-zeroes",
+      "name": "Move Zeroes",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Two Pointers"
+      ],
+      "path": "easy/move-zeroes/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "not-boring-movies",
+      "name": "Not Boring Movies",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/not-boring-movies/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "number-of-unique-subjects-taught-by-each-teacher",
+      "name": "Number of Unique Subjects Taught by Each Teacher",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/number-of-unique-subjects-taught-by-each-teacher/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "patients-with-a-condition",
+      "name": "Patients With a Condition",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/patients-with-a-condition/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "percentage-of-users-attended-a-contest",
+      "name": "Percentage of Users Attended a Contest",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/percentage-of-users-attended-a-contest/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "primary-department-for-each-employee",
+      "name": "Primary Department for Each Employee",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/primary-department-for-each-employee/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "project-employees-i",
+      "name": "Project Employees I",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/project-employees-i/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "queries-quality-and-percentage",
+      "name": "Queries Quality and Percentage",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/queries-quality-and-percentage/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "students-and-examinations",
+      "name": "Students and Examinations",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/students-and-examinations/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "the-number-of-employees-which-report-to-each-employee",
+      "name": "The Number of Employees Which Report to Each Employee",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/the-number-of-employees-which-report-to-each-employee/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "triangle-judgement",
+      "name": "Triangle Judgement",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/triangle-judgement/solution.txt",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "unique-number-of-occurrences",
+      "name": "Unique Number of Occurrences",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/unique-number-of-occurrences/solution.py",
+      "date_solved": "2026-08-04"
+    },
+    {
+      "slug": "user-activity-for-the-past-30-days-i",
+      "name": "User Activity for the Past 30 Days I",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/user-activity-for-the-past-30-days-i/solution.txt",
       "date_solved": "2026-08-04"
     },
     {
